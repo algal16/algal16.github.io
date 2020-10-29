@@ -1,10 +1,4 @@
 
-
-
-
-
-<!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -79,7 +73,7 @@ aldalb@inbox.lv, tel. 27180548; Rīga, 2016. gada 20 jūlijs</i>
 
  <h2 style="color: black; text-align: center;"> ПРИБОР ДЛЯ ГАРМОНИЗАЦИИ И УКРЕПЛЕНИЯ ЗДОРОВЬЯ 
 ЧЕЛОВЕКА ПОСРЕДСТВОМ БИОЛОГИЧЕСКОЙ ОБРАТНОЙ СВЯЗИ ПО
-ЭЛЕКТРИЧЕСКИМ ФЕНОМЕНАМ КОЖИ “ALGAL-16”</h2>
+ЭЛЕКТРИЧЕСКИМ ФЕНОМЕНАМ КОЖИ “ALGAL16”</h2>
 
 <p>
 
@@ -130,12 +124,7 @@ aldalb@inbox.lv, tel. 27180548; Rīga, 2016. gada 20 jūlijs</i>
 Албертс.Албертович, доктор медицинских наук, Dr. Habil. Med.,
 aldalb@inbox.lv, тел. 27180548; Рига, 20 июля 2016 г.,</i>
 
-</p><p>
-<div align='center'><a href='http://www.free-website-hit-counter.com'><img src='http://www.free-website-hit-counter.com/c.php?d=9&id=95763&s=29' border='0' title='free website hit counter'></a><br / ><small><a href='http://www.free-website-hit-counter.com' title="free website hit counter">Free website hit counter</a></small></div>
 </p>
-
-</p>
-</div>
 
 </body> 
-</html>
+
