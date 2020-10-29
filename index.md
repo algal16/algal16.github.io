@@ -1,4 +1,8 @@
 
+
+
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -31,7 +35,7 @@ h2 {
 <body>
 <header>
 <h2 style="color: black; text-align: center;"> APARĀTS CILVĒKA HARMONIZĀCIJAI UN VESELĪBAS NOSTIPRINĀŠANAI AR ĀDAS ELEKTRISKO
-FENOMENU ATGRIEZENISKĀS SAITES PALĪDZĪBU “ALGAL-16”</h2>
+FENOMENU ATGRIEZENISKĀS SAITES PALĪDZĪBU “ALGAL16”</h2>
 </header>
 <p>
 
@@ -127,4 +131,4 @@ aldalb@inbox.lv, тел. 27180548; Рига, 20 июля 2016 г.,</i>
 </p>
 
 </body> 
-
+</html>
