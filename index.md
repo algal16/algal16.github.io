@@ -1,134 +1,949 @@
 
 
-
 <!DOCTYPE html>
 
-<html lang="en">
-
-<head>
-
-<meta charset="utf-8">
-<title>ALGAL16</title>
-<meta name="ALGAL16">
-<!--[if lt IE 9]>
-<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
 <style>
-html { color: black; background-color: white; text-align: center; font-family: times-new-roman; }
-body { width: 990px; margin: 0 auto 0 auto; text-align: left; padding: 5px; }
-header { width: 100%; display: table; }
-article { width: 600px; float: center;  display: table; color: black;}
-nav { width: 330px; float: left; display: table; }
-body { background-color: white; }
-header { background-color: white; color: grey; text-align: center; }
-nav { background-color: white; text-    padding: 10px;
-}
+html { color: black; background-color: white; text-align: left; font-family: times-new-roman;  }
+body { width: 1300px; text-align: left;}
+header { width: 1000px; display: table; text-align: left; }
+nav {position: absolute; top:150px; left:910px;  width: 350px; float: left; display: table; text-align: left; }
+article {position: absolute; top:150px; left:550px;  width: 350px; float: left; display: table; text-align: left; } 
+p {line-height: 0.9;  margin: 10px; font-size:19px;}  
 
-h2 {
-    text-align: center;
-}
-</style>
-
-</head>
+ </style>
 
 <body>
-<header>
-<h2 style="color: black; text-align: center;"> APARĀTS CILVĒKA HARMONIZĀCIJAI UN VESELĪBAS NOSTIPRINĀŠANAI AR ĀDAS ELEKTRISKO
-FENOMENU ATGRIEZENISKĀS SAITES PALĪDZĪBU “ALGAL16”</h2>
-</header>
-<p>
 
-<img style="float: left; margin: 10px 10px 0px 0px; width: 380px;" src="algal16.png">
-<p>
+<button onclick="helpkludas()"  style="position: absolute; top:540px; left:250px; width:200px;  height: 30px; font-size:12px; text-align: center;  color: black; font-family: times-new-roman;  border:1px solid grey;" >Kļūdas</button>
+<button   style="position: absolute; top: 60px; left: 750px; width:300px;  height: 30px; font-size:18px; text-align: center;  color: black; font-family: times-new-roman;  border:1px solid grey;" ><a href="/assprats/saturs.html">Daudz citu originālu uzdevumu</a></button>
 
-<b>Uzdevumi un iespējas.</b> Aparāts pēc savas uzbūves un programatiskā nodrošinājuma ir paredzēts individuāliem pašizziņas, pašattīstības,
-harmonizācijas, pretstresa un veselības nostiprināšanas seansiem un treniņiem, pamatā pēc bioloģiskās atgriezeniskās
- saites principa. Bet, tā kā vairums treniņa programmu atļauj saglabāt datus sekojošai padziļinātai analīzei, tad aparātu var izmantot arī, 
-lai savāktu datus, piemēram, ar mērķi tos izmantot turpmākai statistiskai analīzei. Bez tam, tā kā ādas elektriskie fenomeni ir ļoti jūtīgi 
-uz visniecīgākajiem (pat zemsliekšņa) kairinātājiem, tad aparāts var tikt izmantots dažādu, citādi neidentificējamu, emocionālu,
- enerģētisku un fizisku faktoru iedarbības objektīvai noteikšanai, kā arī organisma dažādu sistēmu agrīnu homeostāzes traucējumu
- noteikšanai un potenciālo atveseļošanās taktiku izvēlei. Tāpat iespējama sinhrona divu cilvēku emocionālā stāvokļa izzināšana,
- objektīvi nosakot viņu līdzīgo vai atšķirīgo emocionālo reakciju dažādās modelējamās vai dabīgās situācijās, piemēram, kādas
- konkrētas mūzikas klausīšanās laikā.
-</p><p>
-<b>Priekšrocības.</b> Aparāts atšķiras ar lielu funkcionalitāti – ļoti īsā laikā ir iespējams veidot jaunas programmas, arī izveidot kādus speciālus
-devējus, piemērojot katra cilvēka īpašībām, katras darba situācijas vajadzībām, praktiski katras jaunas radošas idejas primārai
- pārbaudei un, iespējams, arī realizācijai. Tādēļ ir iespējams radīt individuālu programmu, vai pat vairākas programmas ne tikai katram
- atsevišķam cilvēkam, bet arī katram jaunam veselības uzlabošanas vai pašattīstības treniņa seansam, tādā veidā ievērojami
- paaugstinot darbības efektivitāti. Tātad, aparāts slēpj sevī lielu radošu potenciālu. Tai pat laikā aparāts pamatā nodrošina arī tādas
- standarta iespējas, kādas piedāvā citi aparāti ar līdzīgu pielietojumu. 
-</p><p>
-<b>Komplektācija.</b> Aparātam ir divas ieejas ādas elektrisko reakciju devējiem. Aparāts ir komplektēts ar diviem pāriem lielo
- (plaukstas) devēju, diviem pāriem mazo (pirksta) devēju, vienu pāri vidējā izmēra devēju, vienu tausta veida devēju mazāku ādas
- zonu izzināšanai. Aparāta iespējas palielina viens kanāls ar ieeju un devēju pulsogrammas  reģistrācijai.
-</p><p>
-<b>Konstrukcija, vadība.</b> Visa datu pieraksta un treniņa procesa vadība ir automātiska, un tiek nodrošināta ar divu līmeņu
- programmatūras palīdzību. Atsevišķi tiek programmēta mikroshēma, kas vada datu reģistrācijas un primārās apstrādes
- procesu, un kura, kopā ar elektroniku un komutāciju ir izvietota pašā aparāta korpusā. Mikroshēma nosūta datus datoram,
- kur tos pārtver jau cita, datora programma. Aparāta izstrādē izmantotas daudzas autora “know-how” idejas, vairāki
- tīri tehniskas dabas jauninājumi, kā arī citi būtiski jaunuma elementi no daudziem autora izgudrojumiem, patentiem, grāmatām, žurnālu rakstiem.
-</p><p>
-<b>Gatavības pakāpe.</b> Aparāts izgatavots vienā eksemplārā, autors veic tā aprobāciju. Autors būs pateicīgs par atbalstu.
- </p><p>
-<i>Visas tiesības uz aparātu un programmām ir aizsargātas:© Alberts Aldersons; medicīnas zinātņu doktors (Dr. Habil. Med.); 
-aldalb@inbox.lv, tel. 27180548; Rīga, 2016. gada 20 jūlijs</i>
-</p>
+<canvas onclick=f1()  ondblclick=helpburts()    id="myCanvas" width="510" height="510" style="position: absolute; top:10px; left:10px;  font-family: times-new-roman;   border:3px solid grey;"></canvas>
+<canvas onclick=vardi()   id="vardi" width="750" height="300" style="position: absolute; top:100px; left:530px;  font-family: times-new-roman;   border:3px solid grey;"></canvas>
 
- <h2 style="color: black; text-align: center;"> ПРИБОР ДЛЯ ГАРМОНИЗАЦИИ И УКРЕПЛЕНИЯ ЗДОРОВЬЯ 
-ЧЕЛОВЕКА ПОСРЕДСТВОМ БИОЛОГИЧЕСКОЙ ОБРАТНОЙ СВЯЗИ ПО
-ЭЛЕКТРИЧЕСКИМ ФЕНОМЕНАМ КОЖИ “ALGAL16”</h2>
+<p id="sremo" style="position: absolute; top:10px; left:600px; width:600px;  font-size:30px; color: black;  text-align: left; font-family: times-new-roman; font-family: times-new-roman; ">KRUSTVĀRDU MIKLA "SASTĀDIET PAŠI!"</p>
+<button id="nodzest" type="button" onclick="nodzest()";   style="position: absolute; top:580px; left:250px; width:200px;  height: 30px; font-size:18px; text-align: center;  background-color: white; color: black; font-family: times-new-roman;  border:1px solid grey;" >Nodzēst vārdu</button>
 
-<p>
+<select id="cars" name="cars"    style="position: absolute; top:540px; left:10px; width:200px; height: 30px; font-size:18px; color: black;  text-align: left; font-family: times-new-roman; color: black; font-family: times-new-roman;  border:1px solid grey;">
+    <option value="uzdevums1">uzdevums1</option>
+    <option value="uzdevums2">uzdevums2</option>
+    <option value="uzdevums3">uzdevums3</option>
+    <option value="uzdevums4">uzdevums4</option>
+    <option value="uzdevums5">uzdevums5</option>
+    <option value="uzdevums6">uzdevums6</option>
+    <option value="uzdevums7">uzdevums7</option>
+    <option value="uzdevums8">uzdevums8</option>
+    <option value="uzdevums9">uzdevums9</option>
+    <option value="uzdevums10">uzdevums10</option>
+    <option value="uzdevums11">uzdevums11</option>
+    <option value="uzdevums12">uzdevums12</option>
+    <option value="uzdevums13">uzdevums13</option>
+    <option value="uzdevums14">uzdevums14</option>
+    <option value="uzdevums15">uzdevums15</option>
+    <option value="uzdevums16">uzdevums16</option>
+    <option value="uzdevums17">uzdevums17</option>
+    <option value="uzdevums18">uzdevums18</option>
+    <option value="uzdevums19">uzdevums19</option>
+    <option value="uzdevums20">uzdevums20</option>
+ </select>
+<button id="uzdev" type="button" onclick="viss()";   style="position: absolute; top:580px; left:10px; width:200px;  height: 30px; font-size:18px; text-align: center;  background-color: white; color: black;  font-family: times-new-roman;  border:1px solid grey; " >Paņemt uzdevumu</button>
 
-<b>Назначение и возможности.</b> Прибор по основной конструкции и программному
-обеспечению предназначен для проведения индивидуальных сеансов и тренировок
-саморазвития, укрепления противострессовых механизмов, гармонизации и улучшения здоровья по
-принципу биологической обратной связи (БОС). Но, так как большинство тренировочных программ
-предоставляют возможность сохранения данных для последующего углубленного анализа, то прибор
-можно использовать и для сбора данных, например, с целью их последующей статистической обработки. Кроме того, так как 
-электрические феномены
-кожи являются очень чувствительными к ничтожным (даже подпороговым) раздражителям, то
-аппарат может быть использован для определение разных, иначе неидентифицируемых
-эмоциональных, энергетических, физических факторов, а также для определения нарушений
-гомеостаза различных систем организма и выбора оптимальных потенциальных тактик оздоровления.
-Также возможно синхронное определение эмоционального состояния двух людей, объективно
-определяя похожую или различную их эмоциональную реакцию в различных моделируемых или
-естественных ситуациях, например, во время прослушивания какого - то конкретного произведения
-музыки.
-</p><p>
-<b>Преимущества. </b> Прибор отличается большой функциональностью — в очень короткое время
-можно создать новые программы, как и создать новые датчики, приспосабливая их к особенностям
-каждого человека, к требованиям новой рабочей ситуации, для первичной проверки и, возможно, и
-реализации каждой новой творческой идеи. В связи с этим возможно создать индивидуальную
-программу, или даже несколько программ, не только для каждого человека, но и даже для каждого
-нового сеанса по укреплению здоровья или саморазвития, тем самым значительно повышая
-эффективность работы. Следовательно, прибор скрывает в себе большой творческий потенциал.
-Вместе с тем, прибор обеспечивает и все те возможности, какие предлагают другие аппараты
-подобного назначения.
-</p><p>
-<b>Комплектация.</b> Прибор снабжен двумя входами для датчиков электрических реакций кожи. К
-прибору прилагаются: две пары больших (ладонных) датчиков, две пары маленьких (пальцевых)
-датчиков, одна пара средних датчиков, один датчик в виде щупа для исследования более мелких
-кожных зон. Возможности аппарата расширены одним дополнительным каналом с входом и датчиком
-для регистрации пульсограммы.
-</p><p>
-<b>Конструкция, управление.</b> Все управление процессом записи и тренировки осуществляется
-автоматически, путем двухуровневого программного обеспечения. Отдельно программируется
-микросхема управления процессом записи и первичной обработки данных, которая вместе с
-электроникой и коммутацией расположена собственно в самом приборе. Микросхема посылает
-данные в компьютер, где они улавливаются уже другой, компьютерной программой. В разработке
-прибора использованы многие «know-how” идеи автора, ряд чисто технических новшеств, а также
-существенные новшества из нескольких изобретений, патентов, книг и статей автора.
-</p><p>
-<b>Степень готовности.</b> Аппарат изготовлен в одном экземпляре, автор
-проводит его апробацию. Автор будет благодарен за поддержку.
- </p><p>
-<i>Все права на аппарат и программы защищены: © Алдерсонс
-Албертс.Албертович, доктор медицинских наук, Dr. Habil. Med.,
-aldalb@inbox.lv, тел. 27180548; Рига, 20 июля 2016 г.</i>
+<p style="position: absolute; top:420px; left:550px; width: 700px; font-size:16px; color: black;" >
+I N S T R U K C I J A
+<br><br>
+Visas atbildes Jums ir dotas rāmī, kas atrodas pa labi no galvenā režģa. Visi vārdi šeit ir sakārtoti to garumu pieaugšanas kārtībā.
+Jūsu uzdevums ir salikt šos vārdus to pareizajās vietās galvenajā režģī - tā, lai tur iveidotos pareiza krustvārdu mīkla.
+<br><br>
+Lai to izdarītu, jāveic šādas darbības:
+<br>
+1) Ar peles kreiso taustiņu uzklikšķiniet jebkurā vietā, kur vēlaties vārdu ievietot. IEVĒROJIET - neklikšķiniet uz krustojuma,
+lai būtu skaidrs, vai gribat vārdu ievietot horizontāli vai vertikāli.
+<br>
+2) Uzklikšķiniet uz vārda, kuru vēlaties ievietot - tas uzreiz ieņems Jūsu izvēlēto vietu.
+<br>
+2) Lai vārdu nodzēstu, iezīmējiet to (punkts 1)), un pēc tam nospiežiet taustiņu "Nodzēst vārdu".
+<br><br>
+PALĪDZĪBA:
+<br>
+1) Peles dubultklikšķis galvenajā režģī parādīs pareizo burtu.
+<br>
+2) Nospiežot taustiņu "Kļūdas," pareizie vārdi būs zaļā krāsā, nepareizie - sarkanā. 
 
 </p>
 
-</body> 
+<script>
+
+var ramgra=30;
+var rambur=23;
+
+ var burts = [];   
+ var spurts = []; 
+ var mansdarbs = [];   
+ var numurs = [];   
+ var nospiests = [];
+ var zimes = [];
+ var vertibas = [];
+ var horpozic = [];
+ var verpozic = [];
+ var horpozicgra = [];
+ var verpozicgra = [];
+ var horpozicbur = [];
+ var verpozicbur = [];
+ var darbs = [];
+ var vards = [];
+ var statuss = [];
+ var varbur = [];
+ var gatavs289 = [];
+ var malahor = [];
+ var malaver = [];
+ var malalab = [];
+ var malaapa = [];
+ var mala = [];
+ var horsak = 0;
+ var versak = 0;
+ var gatavivardi = 0;
+ var vieta = 1;
+ var sakums=0;
+ var beigas=0;
+ var rez=0;
+ var sledzis=0;
+var vardavieta=0;
+var xxx = "";
+var vi=0;
+var burtanumurs=0;
+var merkishor=0;
+var merkisver=0;
+var virzi="horizo";
+var gruppa=0;
+ var vertjaut = [];
+ var horijaut = [];
+ var horikods = [];
+ var vertkods = [];
+var vervarsk=0;
+var horvarsk=0;
+var horivertiba = [];
+var vertvertiba = [];
+var malahor = [];
+var malaver = [];
+var a=0;
+var vertjautnr=0;
+var horijautnr=0;
+var f=0;
+var mansdarbsrinda="";
+var jrg=13;
+var n=0;
+var mazienumuri = [];
+var verpluss=0;
+var horpluss=0;
+var sifrs = [];
+var sifrakoordvert = [];
+var sifrakoordhori = [];
+var burtadati="";
+var sifraatsl = [];
+var varnr=0;
+var varsak=0;
+var varbei=0;
+var versak=0;
+var verbei=0;
+var atsl=0;
+var veratsl=0;
+var varduskaits=0;
+
+for (n=1; n<=289; n++){ 
+mansdarbs[n]="";
+mala[n]=0;
+malahor[n]=0;
+vertkods[n]=0;
+horikods[n]=0;
+malaver[n]=0;
+mazienumuri [n]=0;
+ horivertiba [n]=0; 
+ vertvertiba [n]=0;
+sifrs [n]="";
+burts [n]="";
+sifrakoordvert [n]=0;
+ sifrakoordhori [n]=0;
+ sifraatsl [n]=0;
+} 
+
+var xx1 = "OKTOBRIS1IEVĒROJUR1R1R1N1P1G1R1P1ZTRULI1TRIKO1CAURSO1P1E1R1E1I1I1S1VPLAISAINS1SUNISKIĒ111T1G1T1T1Ā111EDŪKT1SALĀTS1TUPUSS1A11A11T11S11O1T1VIRSMAS1ŠŅUKSTS1S1L11S11K11N11Ē1DTOSTS1ĶĒRPIS1ĀTRIA111I1I1O1Z1L111ĒBĀRBELE1PĀRKAISĪTU1A1T1Ģ1L1I1U1E1ILĪDZI1ELITE1ŽANRSĒ1I1E1Ļ1S1Z1Ņ1Ā1KTROKSNIS1ATLIEKASDŪKT=SAMS=SUNS=ĀTRI=TRUPA=OPUSS=TRULI=TRIKO=CAURS=KAILS=TUPUS=POTĒT=TOSTS=RADIO=SENĀK=LĪDZI=ELITE=ŽANRS=BRIEST=SALĀTS=ĶĒRPIS=LAUŽŅI=INTRIGA=EGOISTS=ĒRCINĀT=PIESTĀT=SUNISKI=VIRSMAS=ŠŅUKSTS=KROPLIS=SIETIES=ĶIEĢEĻI=IZRIEZT=BĀRBELE=OKTOBRIS=ORTOPĒDS=IEVĒROJU=UZSVIEST=STABULĒT=DIĒTISKS=TROKSNIS=ATLIEKAS=PLAISAINS=PĀRKAISĪT=";
+var xx2 = "1JAPĀNIS1OSETĪNI1M1P1R1E1T1L1I1I1VETAPS1DARVA1LIETID1Ļ1T1Ī1Ī1I1I1K1LIZŠĶĒRDĒT1SANĒSĀTĶ111T1Ī1I1T1Ā111ĪIKSS1STRESS1TĀLABS1O11P11S11P11U1A1SLĪPĒTS1HRONIKA1V1I11T11A11L11S1CĀRSTI1VIRSIS1ASNIR111Z1A1B1Z1P111RGLIEMJI1IEBRUKUMSU1E1A1B1T1R1L1Z1MLŪSIS1SĀRŅI1SKARAE1Ē1Ē1T1I1S1Ē1R1S1STATNIS1ATSTATU1IKSS=SPĒT=POLS=ASNI=APAĻŠ=NIEKS=ETAPS=DARVA=LIETI=SOLIS=TĀLAB=LUKSS=ĀRSTI=IESĒT=UZART=LŪSIS=SĀRŅI=SKARA=ĀRSTĒT=STRESS=VIRSIS=PULSĒT=JAPĀNIS=IEDĪDĪT=OSETĪNI=SLAISTS=TILINĀT=MEDIĶIS=TRĪTIES=VILTĪBA=SANĒSĀT=SLĪPĒTS=HRONIKA=VĀRGULE=ARBITRI=CIRSMAS=IZMASĒT=VAIBSTI=IZBRIST=GLIEMJI=STATNIS=ATSTATU=IZŠĶĒRDĒT=IEBRUKUMS=";
+var xx3 = "BĪDĪT1PĻAVA1LOLOTE1I1R1I1Z1D1O1A1ĒBIEZĪBA1A1ATDABŪTR1M1T1N1I1P1E1D1ISĒŽA1CIMDOTA1DIŽS11Ē1N1S1S1E1U1E11ČELLISTS1BREZENTSA111Ķ1SĀNIS1S111VKĀPNES1P1K1SVAINEL111L1SEGLI1A111ŠIDEJISKS1IZGROZOS11T1S1U1A1D1I1Ā11ITIN1DRISKAS1PLUSR1Ķ1O1I1T1N1V1A1PDIEZGAN1O1GRAFIKAZ1T1L1Ā1Ņ1Ā1Ļ1N1RUPENE1TEIKT1ĀRSTSTRĪT=LODE=SĒŽA=DIŽS=ITIN=PLUS=OGLE=VAĻĀ=BĪDĪT=BEBRS=PĻAVA=LOLOT=TĒTIS=ČAKLI=SĀPES=BIKLI=SVEŠS=SĀNIS=SEGLI=IRDZU=SPARS=UPENE=TEIKT=ĀRSTS=AZAIDS=KĀPNES=SVAINE=ASTOŅI=DIEMŽĒL=LABDIEN=BIEZĪBA=ATDABŪT=CIMDOTA=NIĶELIS=UZSVARI=ETIĶETE=ZĀLAINS=DRISKAS=DIEZGAN=GRAFIKA=PIANISTS=ADAPTERS=ČELLISTS=BREZENTS=SKURINĀT=IZDANGĀT=IDEJISKS=IZGROZOS=";
+var xx4 = "1OSETĪNS1ĪRNIECE1A1A1R1O111A1E1I1ANOSVIEST1BULDURĒTA1T1O1K1S1T1Ē1K1ZNORA1TŪDAĻ1STRUPIA1Ā1D1T1L1K111Ļ1ŅSADURT1DIFRAKCIJAS1Ā1U1T1E1O1A111S1ĀTRS1IZDEG1URBT1A111K1Z1Ē1S1T1E1MSKAŅUPLATE1PRIZMAP1T111S1I1U1S1R1SRAJONS1CENZI1ŽŪPAĀ1A1O1B1S1R1O1P1LŠŅUKSTĒT1VALSTĪBAI1T1Ē1R111U1T1G1S1KANTĀTE1STRAUSS1TRIO=RAUT=NORA=ĀTRS=URBT=ŽŪPA=BĒRT=OSTA=IEDĒT=TŪDAĻ=KROGS=TIZLS=IZDEG=NOSĒT=CENZI=NOSKŪT=STRUPI=DRUSKU=SADURT=KAUTRS=PRIZMA=UZRAUT=RAJONS=OSETĪNS=ĪRNIECE=CIRKUĻI=ANANASS=ATZIŅAS=ASPRĀŠI=MASALAS=ATJAUTA=KANTĀTE=STRAUSS=NOSVIEST=BULDURĒT=ŠŅUKSTĒT=VALSTĪBA=SASTRĀDĀT=BEZRŪPĪGS=DIFRAKCIJA=SKAŅUPLATE=SALIEDĒTIES=";
+var xx5 = "1INDIEŠI1ŅIEBURS1A1O1K1A111T1I1E1SPANORĀMA1RIEKSTOTT1I1I1O1P1N1L1O1ĀVICA1ATJĀT1ASAROTE1I1O1S1R1A111T1IRENETE1GLUDSPIEDET1Ā1R1S1A1A1I111S1STĀT1LAIST1EŅĢE1S111I1I1S1A1S1E1IKAŽOKVESTE1CIROZEA1I111T1I1D1S1F1VUZBŪVE1IEPŪT1BISEĢ1U1A1Ē1S1K1L1Z1ĻIZLOKSNE1KOLĪZIJAS1I1A1O111Ņ1K1K1S1ASPRĀTE1LAUSKAS1IKRI=ITIN=VICA=STĀT=EŅĢE=BISE=ĒNOT=LĪKS=BIKLS=ATJĀT=ADATA=SLIET=LAIST=VAKAR=IEPŪT=ŠAMOTS=ASAROT=OTRTIK=RENETE=PIESIS=CIROZE=DŪKOŅA=UZBŪVE=INDIEŠI=ŅIEBURS=RETORTE=APTVERT=STĀTIES=SKAUĢIS=IEVEĻAS=ŽIBULIS=ASPRĀTE=LAUSKAS=PANORĀMA=RIEKSTOT=IZLOKSNE=KOLĪZIJA=NONICINĀT=ĢEOFIZIKA=GLUDSPIEDE=KAŽOKVESTE=PĀRLAISTIES=";
+var xx6 = "1C1T11LIEGS11Z1N1IEPRETĪ1S1LUTINĀT1P1I11Č1K1Ā11V1R1KINO1SUPORTS1SUST1E111111R111111T11N1K11I1T1D11S1O1ČIKU1IZĶĒMOT1MITAU11R11B1T1C11A11GLIETAVAS1AERĀCIJAG11I11R1S1N11Ī11VAILE1GOKARTS1GANE1E1S11T1T1S11S1E11D111111U111111G1RAKT1SABRUKT1CĒLA1B1Ā11U1Ī1A11Ū1Ī1MŪŽDIEN1G1UZSKATI1T1S11IZSĒT11A1S1TRIO=LĪČU=SLĀT=ZIVS=KINO=SUST=ČIKU=MITA=AILE=GANE=RAKT=TĀDS=AUNI=KAUT=CĒLA=CŪKA=LIEGS=ČULGA=AGAVE=IZSĒT=CEPIENI=NĀRSTOT=IEPRETĪ=LUTINĀT=SUPORTS=KURTIES=IZBAROT=DOCENTS=SMACĪGS=IZĶĒMOT=IEDABŪT=GOKARTS=NEGLĪTS=SABRUKT=MŪŽDIEN=UZSKATI=ESKORTĒT=LIETAVAS=AERĀCIJA=SATURĪGS=";
+var xx7 = "1D1Ā1A1V1C1Ā1Ā1D1SUŠĶIS1ĒDE1KAPERA1N1Ē1T1L1L1S1Š1E1OGOT1RAUSTĪT1ITIN1O111A111I1S111F1STĀVS1BOZES1APĒST111E1Z1T1S1Š1A111CIŅI1ĀZĒT1ŠĶINDĒT1E1C1Ģ1T1S1Ī1K1R1STRĪĶIS1GUMS1ŪSAS111G1S1G1T1T1K111AŠĶIS1ČAGAS1NAZIS1Ļ111S1M111K111Z1DŪDA1LABDIEN1ECĒT1D1L1I1Ī1K1Ā1Ļ1D1BĒDULE1TUR1BAĻĻAS1T1S1T1S1I1T1A1S1ĒDE=IET=ĒRA=TUR=ĀĶĒT=VĒLU=ĀPŠI=OGOT=ITIN=OTĒT=CIŅI=ĀZĒT=SUTA=GUMS=ŪSAS=DŪDA=ALUS=IKRI=ECĒT=EĻĻA=ASTRA=ĀKSTS=STĀVS=BOZES=APĒST=ZĀĢIS=ŠĶĪST=AŠĶIS=ČAGAS=NAZIS=SLIET=KNĀBT=DUNGOT=DREIFS=SUŠĶIS=KAPERA=ŠĻŪDĒT=IZĒDAS=BĒDULE=BAĻĻAS=CELTIES=RAUSTĪT=VEICĪGI=PANKŪKA=ŠĶINDĒT=STRĪĶIS=GAMBĪTS=LABDIEN=";
+var xx8 = "1ALKT1RADIKULĪTS1P1O1O1Ī111A1I1R1ĪAPDEGUMS1ŠĶIETAMSL1Ž1A1E1M1E1T1N1TACIS111ZARNA1AŠĶII1J1A1G1I1E1I1E11SVARCĒLĀJS1DZEJOTT1S1U1Ī1S1Š1R1A1UI11AMATS1ČŪLĀT11NE1S1Ē1I1I1P1D1V1ISMAKRS1IZMOCĪTIES11L1S1J1Ņ1T1T1R1IKLAU1LOZES111APSEĀ1U1R1C1M1E1Ī1I1TSAPLOSĪT1ELEGANTIT1Ī1Z1G111L1N1Ā1S1ATVĀRSNĪTE1SUTA1ALKT=TOGA=RĪME=LIET=ĪSTI=ACIS=AŠĶI=KLAU=KĀST=APSE=ROZĀ=ELLE=ĪGNS=SUTA=MAIJS=ZARNA=GLĪTI=ŠŪPOT=AMATS=ČŪLĀT=IZŅEM=LOZES=KAĶENE=DZEJOT=SMAKRS=JOCĪGS=ACUMĒRS=IZRĀDĪT=LODŽIJAS=TRANŠEJA=APDEGUMS=ŠĶIETAMS=SALAUPĪT=VIRPINĀT=SAPLOSĪT=ELEGANTI=RADIKULĪTS=PALAISTIES=SVARCĒLĀJS=TUNISIETIS=IZMOCĪTIES=ATVĀRSNĪTE=";
+var xx9 = "1B1S1L1L1F1T1S1V1BRIEDĪBA1IPRĪTSIR1Ī1J1K1U1R1U1A1Z1ĀVAS1Ņ1K1M1S1ROBS1S1A1Ā1ĀDA1I1Š1U1NOĪRĒT11Ū11STIKLS1Ļ1G11CERĒT11N1I1RIPSS1I1E1R1PAUST1111ĒRMS1KOPU1111GRŪST1D1E1P1SVĪST1A1P11SALNS11E1A1FUGASS11P11PALODA1D1Ļ1L1LAI1A1T1U1KURA1E1A1L1S1EĻĻA1L1I1J1Ž1K1Ī1N1Ķ1SIENMALA1SAVAINOT1S1S1S1S1S1S1S1T1ĀDA=SĒT=PUS=LAI=ĀVAS=ROBS=DŪRE=ĒRMS=KOPU=ELPA=KURA=EĻĻA=LAUKĀ=FIRMA=CERĒT=CIMDS=TROPS=RIPSS=PAUST=GRŪST=SVĪST=SALNS=LAŽAS=ILKSS=LĪKŅĀT=TRUSIS=NOĪRĒT=STIKLS=FUGASS=SLEJAS=PALODA=PASĪVS=BRĪVSOĻI=SEJSARGS=STARŠINA=VIZBULIS=BRIEDĪBA=IPRĪTSIR=RAUDULIS=SPAĻAINS=VELTENIS=SADUĻĶOT=SIENMALA=SAVAINOT=";
+var xx10= "KOTĒT1NECIK1SŪBĒTŪ1A1R1E1U1A1A1U1ĒKAULIŅŠ1N1REVIDĒTO1P1O1P1F1T1S1I1ITRĪT1CELTNES1ŪSAS11G1P1T1E1R1E1T11KRITIENS1PIRMMETSR111E1SAKAS1I111EOPTIKA1L1I1ASARISK111A1STARP1Ā111KATĻAUJAS1TĀLRUNIS11A1T1Ā1K1R1S1O11PLUS1TRAUSLS1IRBEO1T1S1S1M1A1A1U1LSLINKOT1E1BŪCENIST1E1Ū1Ē1Ļ1O1I1Ā1OSUSĒT1TUŠĒT1SATĪTTRIO=SAVS=TRĪT=ŪSAS=PLUS=IRBE=SKŪT=ACIS=KOTĒT=KŪKOT=NECIK=SŪBĒT=TĒTIS=KROKA=SALTS=PAIRT=SESKS=SAKAS=STARP=POSTS=ELSOT=SUSĒT=TUŠĒT=SATĪT=CUNFTE=OPTIKA=ASARIS=KUMEĻŠ=TAUPĪGI=BUDISTE=KAULIŅŠ=REVIDĒT=CELTNES=PIEKAUT=EMISĀRS=ĻAUTIES=NORUNĀT=TRAUSLS=SLINKOT=BŪCENIS=NEŠPETNS=KARTERIS=KRITIENS=PIRMMETS=SAĀRSTĒT=PĀRLABOT=ATĻAUJAS=TĀLRUNIS=";
+var xx11 = "NEDALĀMI1VIEGLUMSO1Ž1A1E1L1E1Ā1G1KMAURI1MAIJS1GRUPAA1D1M1U1E1M1I1N1RSPOLĒTĀJS1APNĒSĀTK111T1R1U1K1Ā111IOGLE1ZIEMOT1TRASET1A11Ā11I11A11N1S1PUBULIS1GAISĪGI1K1T11E11B11N11Ļ1TĀLAVA1ČALOŅA1KINOR111P1U1Ē1E1B111KTOVASAR1DUMBRAINSA1I1U1K1Ī1T1O1E1IIESMS1SEGLI1NEKASN1U1Ē1T1I1E1Z1Š1KSARĪTIES1ASPARĀGSOGLE=ZĀLE=AINA=KINO=DŽUDO=UGUNS=MAURI=MAIJS=GRUPA=LAUTA=TRASE=ANGĻI=ĀLAVA=VISUR=IEKŠĀ=IESMS=SEGLI=NEKAS=LAIMĒT=ZIEMOT=ČALOŅA=BRONZA=MEMUĀRI=IESMAKT=GĀGINĀT=LIESUMI=APNĒSĀT=PUBULIS=GAISĪGI=BLĒDĪGI=APSUSĒT=ČURKSTE=ŅEMTIES=TOVASAR=NEDALĀMI=NOMASKOT=VIEGLUMS=SKARTIES=KĀRTAINS=TOKSISKS=SARĪTIES=ASPARĀGS=SPOLĒTĀJS=DUMBRAINS=";
+var xx12 = "1SLĒDZIS1CIRSLIS1S1Ī1A1Z1D1E1E1Z1ILIŠĶI1KĀZAS1KODNEĪ1U1N1R1I1Ē1L1E1TPASTORĀLE1DŽUNGĻIU111T1P1D1Ē1M111NMASA1ATNĀKT1SAMBOS1P11C11T11P11A1S1TOLUOLS1PRĀTULA1A1Ž11T11P11L11D1BTEIKT1ŠĶAVAS1KINOD111R1N1E1P1D111KZAĻGANI1LINKRUSTSI1A1K1C1P1Ē1A1M1ĪMAUKT1EPOSS1PLUKTT1N1Ē1L1T1Ā1Ē1K1S1KAUTIES1STATNIS1MASA=ACOT=PĀLS=KINO=LĪŠUS=IZDEG=LIŠĶI=KĀZAS=KODNE=SPOŽI=SAMBO=MALDI=TEIKT=ĻAUNA=SMUKI=MAUKT=EPOSS=PLUKT=DAINOT=ATNĀKT=ŠĶAVAS=DRAPĒT=SLĒDZIS=IZKRĀPT=CIRSLIS=IESĒDĒT=SEKLUMS=SLĪPUMS=DZIEDĀT=IETINOS=DŽUNGĻI=TOLUOLS=PRĀTULA=ATDZIMT=PAELPOT=BOKSĪTS=TRAKTĒT=ŠNICELE=APNĒSĀT=ZAĻGANI=KAUTIES=STATNIS=PASTORĀLE=LINKRUSTS=";
+var xx13= "VĀKOT1NORĀT1KAMĒRI1O1Ā1O1E1E1Ā1A1INOLIDOT1S1LAPEGLED1O1S1R1T1P1T1N1BAUNI1TĪĢERIS1MEST11N1T1S1S1S1S1T11REALIZĒT1SKATLOGSE111L1TOSTS1Ā111ŪJĒLĪBA1N1E1TRĪSĒTA111Ī1MITRS1Ķ111ĪSPERTIES1SACIRTOT11L1E1T1S1S1S1E11ALPU1KRITIKA1MĀKAU1I1Ū1I1R1R1Ū1T1PZINĪBAS1U1IZPERĒTA1Ā1O1K1P1E1I1I1ĪSATĪT1SLIET1SUSĒTTĀDS=KĀPT=AUNI=MEST=ALPU=MĀKA=ŪBOT=ŪPIS=VĀKOT=VINDA=NORĀT=KAMĒR=RIEBT=REJAS=TONIS=STERS=SŪTĪT=TOSTS=MITRS=AUZAS=APTĪT=SATĪT=SLIET=SUSĒT=RESTES=JĒLĪBA=TRĪSĒT=STRUPI=KOLONNA=MAGNETO=NOLIDOT=LAPEGLE=TĪĢERIS=TILBĪTE=STĀRĶIS=ELPINĀT=TEĀTRIS=KRITIKA=ZINĪBAS=IZPERĒT=NOTRĪSĒT=TELPISKS=REALIZĒT=SKATLOGS=METRISKS=SASKRIET=SPERTIES=SACIRTOT=";
+var xx14 = "1APVILKT1ATZVILU1S1Ā1K1A111Ū1A1I1SPORTRETS1ATKLIEGTĪ1G1I1A1S1A1D1K1ADURT1ARFAS1IEMUKTĪ1A1G1S1S1A111L1UGAUDOT1GLUMENIEKSI1Z1T1A1A1A1A111S1ĀTRI1PĪPĒT1GANS1A111K1S1Ē1S1A1O1RPARLAMENTS1INERTIS1A111S1I1A1S1A1GKĀDĪBA1LEMPE1KIVIA1I1I1M1S1Ķ1O1D1PUZSKRIET1BEISBOLST1T1Z1S111R1T1Š1S1ASPEKTS1STRAUSS1IKRI=TŪTA=DURT=ĀTRI=GANS=KIVI=MEST=OSTA=VALDE=ARFAS=AMATS=APSES=PĪPĒT=BIRZE=LEMPE=KATARS=IEMUKT=GOTIKA=GAUDOT=NAGANS=INERTI=APĶERT=KĀDĪBA=APVILKT=ATZVILU=LIEKULE=SPĪDĪGI=STATUSS=APSKAUT=RIGIPSS=RADISTS=ASPEKTS=STRAUSS=PORTRETS=ATKLIEGT=UZSKRIET=BEISBOLS=PĀRGRAUZT=NORAIDOŠS=GLUMENIEKS=PARLAMENTS=SASLAPĒTIES=";
+var xx15 = "1ASFALTS1IEKAVAS1D1T1U1A111L1O1T1SĪPATNĪBA1APGROZĪTD1I1I1U1V1A1T1V1RZAGT1ALNIS1ŠASIJAĪ1N1D1A1R1A111L1UBLUĶIS1ASAKAINUMSA1M1V1S1T1N1Z111S1ĒSMA1OPERA1PUŠU1A111T1L1I1S1U1Ķ1IPLAKĀTISKS1ARVIENM1T111S1U1A1T1E1DAPJOMI1AMATS1ASTEI1A1U1Ē1S1L1S1T1KŅAUDIENS1GANĪTIESA1T1Ž1O111B1K1E1S1TALANTS1STATUSS1AUNI=ELPA=ZAGT=ĒSMA=PUŠU=ASTE=ĒNOT=SĪKT=AORTA=ALNIS=AKNAS=SOLIS=OPERA=MUIŽA=AMATS=TABULA=ŠASIJA=DIVATĀ=BLUĶIS=IZPURT=ARVIEN=ATLABT=APJOMI=ASFALTS=IEKAVAS=ATZVILU=DĪDZĪBA=STRAUSS=APMAIŅA=INDEKSS=ATJAUTA=TALANTS=STATUSS=ĪPATNĪBA=APGROZĪT=ŅAUDIENS=GANĪTIES=STAIGNUMS=ŠĶIESTIES=ASAKAINUMS=PLAKĀTISKS=VIRSTEIKUMS=";
+var xx16 = "1P1A11FLORA11Ā1G1SLĪKONE1L1KATRPUS1A1T11J1E1L11D1L1OTRS1RAKARIS1SIST1Ī111111N111111N11B1N11A1D1P11P1I1SAGO1SPIRĀLE1APSEP11S11K1S1A11K11FAIZVAKAR1INSTANCEL11Ī11P1S1Ē11I11JSAVS1PĀVESTS1ŠINA1P1T11T1K1A11I1O11R111111S111111P1NEST1KARTONS1KĻŪT1P1R11L1E1O11O1L1VĒSINĀT1T1TRAKTĒT1T1O11SUSLA11S1T1AKTS=FEJA=AKLI=ĀRDS=OTRS=SIST=SAGO=APSE=SAVS=ŠINA=NEST=TRIO=ALTS=NOTA=KĻŪT=KOKS=FLORA=SPALS=EFEJA=SUSLA=PLATĪBA=GULSNIS=SLĪKONE=KATRPUS=RAKARIS=NOSVĪST=APKAPĀT=PLANĒTA=PAKAIŠI=SPIRĀLE=APREPĒT=PĀVESTS=NOPŪLĒT=KARTONS=VĒSINĀT=TRAKTĒT=OLEANDRS=AIZVAKAR=INSTANCE=SEKSTETS=";
+var xx17 = "1S1L1Š1Z1P1P1Ā1Ģ1PALŪGT1ĀVA1AIZIET1B1Z1A1Ģ1R1O1Ē1L1TĒST1TRITONS1TĒZE1G111I111D1T111I1ETĀNS1MŪĶĒT1KRIST111O1S1D1T1M1E111DĪKT1TURP1DELFĪNS1R1Ē1U1S1V1D1E1E1TIKLUMS1VĒLU1ROZĀ111O1T1Ž1Ž1S1Ē111KLĒTS1JUMIS1STABS1O111L1B111Ī111A1AKLS1ADĪKLIS1MANS1A1I1T1T1Ā1U1U1Ā1ANKETA1EKS1MEŠANA1S1T1S1S1E1S1A1S1ĀVA=ĪRI=NEZ=EKS=LŪZT=ZĀĢI=ĀZĒT=TĒST=TĒZE=ŪDRS=DĪKT=TURP=VĒŽI=VĒLU=ROZĀ=AKLS=SIET=LĀSE=MANS=MUŠA=ŠTATI=PAOST=ETĀNS=MŪĶĒT=KRIST=STUMT=MEDUS=KLĒTS=JUMIS=STABS=LATAS=ĪSUMS=SABĒGT=ĢELZIS=PALŪGT=AIZIET=LOKANS=BANĀNS=ANKETA=MEŠANA=PARODĒT=TRITONS=NOTĒLOT=REFERĒT=DELFĪNS=TIKLUMS=ŽUBĪTES=ADĪKLIS=";
+var xx18 = "1ĶITE1ATBRAUCĒJS1A1E1Z1R111S1I1Ū1ORŪPNIEKS1AKCEPTĒTH1R1S1A1B1Ē1T1E1RACIS111RŪGTS1ELKSI1E1C1S1V1E1M1Ī11SAKRISTIES1BANGASK1Š1K1Ī1S1A1L1S1HU11VĀRPA1ŠTATS11EM1K1D1A1M1O1Ī1Z1MSLĀPES1DESMITCĪŅA11R1S1D1N1S1E1M1TPUDS1JOSTA111LOČIŪ1I1V1M1E1N1R1T1STENDERIS1PAPILNAME1Ā1Ļ1N111G1M1E1S1ATAINOTIES1AUSS1ĶITE=EZIS=ARKA=CIET=OTRS=ACIS=ELKS=PUDS=PŪTE=LOČI=VEĻI=NAGS=RIMA=AUSS=BŪVES=RŪGTS=STĪPA=ATOMS=VĀRPA=ŠTATS=MENTE=JOSTA=ASKĒTE=BANGAS=SLĀPES=DOMINO=CIKĀDES=MALTĪTE=IEPRIEKŠ=JŪTELĪGS=RŪPNIEKS=AKCEPTĒT=KĀRDINĀT=ZĪMOTNES=TENDERIS=PAPILNAM=ATBRAUCĒJS=ARHAISKUMS=SAKRISTIES=SHEMATISMS=DESMITCĪŅA=ATAINOTIES=";
+var xx19 = "1P1B1R1V1O1Ī1J1B1METAFORA1PASLĒPES1K1L1Z1N1E1I1L1L1ASNS1Ī1N1R1N1VĀZT1T1I1N1AKA1Ā1I1E1ĶIVERE11I11TREKNS1Ņ1N11ALNIS11L1I1CIESA1T1O1T1BALSS1111LIJA1AUBE1111IKONA1Ā1A1M1TAUVA1A1E11TIRPT11P1Ā1PLĒŠAS11K11MISTRS1C1P1A1PAT1U1A1Ī1BITE1S1A1U1Ļ1URGT1N1T1I1S1P1Ķ1Ļ1U1TĒLNIECE1UNIFORMA1T1S1T1N1S1S1T1S1AKA=ALA=BET=PAT=ASNS=VĀZT=KINO=LIJA=AUBE=ARKA=BITE=URGT=VANNA=OPERA=ALNIS=ATJĀT=STUMT=CIESA=BALSS=IKONA=TAUVA=TIRPT=PASEN=TUPUS=ROZĪNE=ĪSINĀT=ĶIVERE=TREKNS=PLĒŠAS=SASIET=MISTRS=MUĻĶIS=PEKSTIŅI=BALSIENS=JĒLVIELA=BELZENIS=METAFORA=PASLĒPES=KALCINĒT=NEŠPETNS=APSAUĻOT=VĀRĪGUMS=TĒLNIECE=UNIFORMA=";
+var xx20 = "LĀCIS1PUTNS1LAPASA1I1I1A1Ī1A1Ē1I1MIETVERT1T1CEĻTEKAS1U1T1O1I1Ī1I1C1GTOGA1KLIENTE1CARS11A1D1O1S1I1K1T11IEDERĪGS1REGULĀRSL111E1SAKAS1S111EKĀDĪBA1I1N1ĒTISKIS111U1NELGA1Ī111FSADUĻĶOT1SPĪGULIS11Z1I1P1A1I1S1I11ACIS1LIESTES1BEKAL1M1Ū1E1K1T1Ē1V1SGRUZDĒT1Ē1IZSMELTO1M1R1N1T1E1M1Ņ1RTOSTS1SIEKS1ALIBISIET=LĒĻI=TOGA=CARS=ACIS=BEKA=ŪDRS=ĒSMA=LĀCIS=LAIST=PUTNS=LAPAS=SMAGS=ILKSS=SAIET=RANGS=SEIFS=SAKAS=NELGA=ALGOT=ASTRI=TOSTS=SIEKS=ALIBI=TĪTIES=KĀDĪBA=ĒTISKI=ASKĒTE=CITUGAD=PIECATĀ=IETVERT=CEĻTEKA=KLIENTE=DREBUĻI=KUSTĪGS=DZIMUMS=LIEVEŅI=LIESTES=GRUZDĒT=IZSMELT=PATOLOGS=SACĪTIES=IEDERĪGS=REGULĀRS=NOPIETNS=APIETIES=SADUĻĶOT=SPĪGULIS=";
+// var xx1 = "1ĶAUĶI11T11KĻŪME1L1U11KAZARMA11I1MASNS1S11I11S1TRIOI1S1I111S111I1T1RK11KNIBINĀTIES11GIRT1S111Ī111D1VIS1A11T1ALGOT1R11E11K11R1P1S1R1E11R1ATTAUKOT1DARBONIS1I11K1G1N1S1Ē11P11E11T1STORE1T11O1ĪSS1O111S111I1ĀTES11GRAMSTĪTIES11ĻU1G1E111I111S1P1ĻMAUT1Ā11E11L1SAGOS1L11DRUPATA11T1T1STĪGA11T11IZĒST1ĶAUĶI=KĻŪME=KAZARMA=ASNS=TRIO=KNIBINĀTIES=IRT=VIS=ALGOT=ATTAUKOT=DARBONIS=STORE=ĪSS=ĀTE=GRAMSTĪTIES=MAUT=SAGO=DRUPATA=STĪGA=IZĒST=AUNS=IKS=TAISNĪGS=KAS=MIRT=LAIKI=MORGS=INSTRUKTORE=IEDREBĒTIES=RAKTIES=IERIPOT=APOGS=TRASE=NOSTIEPT=ĪSUMS=EĻĻOT=GULT=PATS=ĀDA=LAI=";
+// var xx2 = "1JEZGA11S11MORGS1I1L11CEĻTEKA11A1MZUPA1S11U11Z1ELLES1A1L111B111M1S1TI11PIEPŪLĒTIES11RTUR1E111Ā111D1ASS1Z11T1VIJAS1I11A11D11P1E1S1K1C11U1GAIŠREĢE1LASĪTĀJI1B11A1I1I1T1N11I11Ū11T1SIETS1I11Ņ1ĀTE1Ī111V111S1TAKB11AGROTEHNIKA11UO1C1I111D111S1K1LLIET1E11U11O1SLĀTS1N11KLIMATS11A1S1NAZIS11S11APAUT1ACS=MAZ=TUR=ASS=ĀTE=TAK=EKS=OSA=ELPA=GALS=ZUPA=ELLE=CENA=KLAU=LIET=SLĀT=JEZGA=MORGS=IZSIT=METRS=VIJAS=VEĢIS=SKATS=SIETS=ĀBOLS=KULTS=NAZIS=APAUT=CEĻTEKA=UZDABŪT=SAUJIŅA=KLIMATS=STUBLĀJS=GAIŠREĢE=LASĪTĀJI=IEVEDUMS=LIETPRATĪGI=MEDICĪNISKS=PIEPŪLĒTIES=AGROTEHNIKA=";
+// var xx3 = "BANGA1VĒRIS1KUMPSĒ1O1U1I1A1L1I1A1ŪRETORTE1U1IEVAZĀTN1Ā1I1N1S1M1I1A1ĪSOLS1SMAIDĪT1BURT11Ē1A1Ē1S1B1S1T11SEMAFORS1LAUKKOPET111G11EĢE11Ū111LAPKLĀT1C1J1STRESSR111N11ĒNA11I111OPIERIPOT1SAMEKLĒT11K1S1P1D1V1S1A11VĪST1ATRREIZ1LUČIE1C1D1I1U1T1U1S1ECIEŠAMS1S1IERĪKOTI1S1B1K1K1Ņ1R1A1VSUSLA1SKUBA1ĀRSTEEĢE=ĒNA=AURI=KIVI=SOLS=BURT=VĪST=LUČI=DABA=URRĀ=BANGA=BĒRNS=VĒRIS=KUMPS=SŪTĪT=STARP=SECĒT=LEJAS=ELSOT=VECIS=IETVE=SUSLA=SKUBA=ĀRSTE=RAUSIS=APKLĀT=STRESS=DRUSKU=NOTĀLĒM=VIENMĒR=SLIMĪBA=MAZAUTO=RETORTE=IEVAZĀT=SMAIDĪT=AFGĀNIS=SKŪTIES=EKSCESS=OPTISKS=AVITIŅA=LAUSKAS=ATRREIZ=CIEŠAMS=IERĪKOT=SEMAFORS=LAUKKOPE=PIERIPOT=SAMEKLĒT=";
+// var xx4 = "BOTĀNIKA1SLEPKAVAĀ1R1O1A1M1I1A1U1TREIBT1PLATE1RESNSD1K1Ā1Z1D1S1A1M1PAPSPRIEDE1UZSVARII111S1Ķ1I1M1T111ENABA1BEDRES1ILKSSS1R11U11A11A11A1T1VASALIS1PLUKATA1A1S11S11Č11G11R1TUZEJA1GLAIMI1OSTAG111P1U1K1A1F111KŠONEDĒĻ1SASTIRPOTG1E1U1B1T1I1A1E1IATKAL1ŪDELE1SILTSL1U1L1V1S1R1K1D1KSĒROTIES1CEĻOJUMINABA=BULS=AUGI=OSTA=TRIKS=AUSMA=REIBT=PLATE=RESNS=BRASE=ILKSS=KATRS=UZEJA=NEKUR=PELDU=ATKAL=ŪDELE=SILTS=NOTĀRS=BEDRES=GLAIMI=FIASKO=KAPZEĶE=LIESUMS=PARASTI=MADEIRA=UZSVARI=VASALIS=PLUKATA=ČAKSTES=APDULLT=GUĻBŪVE=MASIERE=ŠONEDĒĻ=BOTĀNIKA=BĀRDAINS=SLEPKAVA=ATSPIEST=AUGŠGALS=TAKTISKI=SĒROTIES=CEĻOJUMI=APSPRIEDE=SASTIRPOT=";
+
+viss()
+function viss() {
+// ##################
+
+if (document.getElementById("cars").value==="uzdevums1"){ xxxx=xx1;} 
+if (document.getElementById("cars").value==="uzdevums2"){ xxxx=xx2;}
+if (document.getElementById("cars").value==="uzdevums3"){ xxxx=xx3;}
+if (document.getElementById("cars").value==="uzdevums4"){ xxxx=xx4;}
+if (document.getElementById("cars").value==="uzdevums5"){ xxxx=xx5;} 
+if (document.getElementById("cars").value==="uzdevums6"){ xxxx=xx6;}
+if (document.getElementById("cars").value==="uzdevums7"){ xxxx=xx7;}
+if (document.getElementById("cars").value==="uzdevums8"){ xxxx=xx8;}
+if (document.getElementById("cars").value==="uzdevums9"){ xxxx=xx9;} 
+if (document.getElementById("cars").value==="uzdevums10"){ xxxx=xx10;}
+if (document.getElementById("cars").value==="uzdevums11"){ xxxx=xx11;}
+if (document.getElementById("cars").value==="uzdevums12"){ xxxx=xx12;}
+if (document.getElementById("cars").value==="uzdevums13"){ xxxx=xx13;} 
+if (document.getElementById("cars").value==="uzdevums14"){ xxxx=xx14;}
+if (document.getElementById("cars").value==="uzdevums15"){ xxxx=xx15;}
+if (document.getElementById("cars").value==="uzdevums16"){ xxxx=xx16;}
+if (document.getElementById("cars").value==="uzdevums17"){ xxxx=xx17;} 
+if (document.getElementById("cars").value==="uzdevums18"){ xxxx=xx18;}
+if (document.getElementById("cars").value==="uzdevums19"){ xxxx=xx19;}
+if (document.getElementById("cars").value==="uzdevums20"){ xxxx=xx20;}
+
+xxxx=xxxx.trim();
+var garums = xxxx.length;
+for (var w = 0; w <= 288; w++) { burts[w+1] =  xxxx.substring(w,w+1);  } 
+
+// *****************************
+// atkodejam sifra skaitlus
+
+   var str=xxxx.slice(289,xxxx.length);
+//  document.getElementById("sremo").innerHTML =  str;
+
+var dem="";
+for (var x=1; x<=50; x++){
+ var pos = str.search("=");
+ var res = str.slice(0,pos);
+ sifrs [x]=res.trim(); 
+ dem=dem+sifrs [x]+x+"   ";
+ str=str.slice(res.length+1,str.length);
+ if ( sifrs [x] !==""){varduskaits=varduskaits+1;} 
+ } 
+
+// document.getElementById("sremo").innerHTML =  varduskaits;
+
+// *****************************
+
+for (var w = 1; w <= 289; w++) {
+if (burts[w]==="e"){burts[w]="Ē";} 
+if (burts[w]==="u"){burts[w]="Ū";} 
+if (burts[w]==="i"){burts[w]="Ī";} 
+if (burts[w]==="a"){burts[w]="Ā";} 
+if (burts[w]==="s"){burts[w]="Š";} 
+if (burts[w]==="g"){burts[w]="Ģ";} 
+if (burts[w]==="k"){burts[w]="Ķ";} 
+if (burts[w]==="l"){burts[w]="Ļ";} 
+if (burts[w]==="z"){burts[w]="Ž";} 
+if (burts[w]==="c"){burts[w]="Č";} 
+if (burts[w]==="n"){burts[w]="Ņ";} 
+}
+ 
+       for (var w = 1; w <= 289; w++) {
+       mansdarbs[w] =  "0";
+       if (burts[w]==="1"){mansdarbs[w]="1";} 
+       } 
+
+for (var w = 1; w <= 289; w++) {
+if (mansdarbs[w]==="e"){mansdarbs[w]="Ē";} 
+if (mansdarbs[w]==="u"){mansdarbs[w]="Ū";} 
+if (mansdarbs[w]==="i"){mansdarbs[w]="Ī";} 
+if (mansdarbs[w]==="a"){mansdarbs[w]="Ā";} 
+if (mansdarbs[w]==="s"){mansdarbs[w]="Š";} 
+if (mansdarbs[w]==="g"){mansdarbs[w]="Ģ";} 
+if (mansdarbs[w]==="k"){mansdarbs[w]="Ķ";} 
+if (mansdarbs[w]==="l"){mansdarbs[w]="Ļ";} 
+if (mansdarbs[w]==="z"){mansdarbs[w]="Ž";} 
+if (mansdarbs[w]==="c"){mansdarbs[w]="Č";} 
+if (mansdarbs[w]==="n"){mansdarbs[w]="Ņ";} 
+}
+
+ for (var xx=1; xx<=17; xx++){
+  for (var yy=1; yy<=17; yy++){
+  verpozic [vieta] = versak + ramgra*xx-ramgra;
+  horpozic [vieta] = horsak + ramgra*yy-ramgra;
+  verpozicgra [vieta] = versak + ramgra*xx-ramgra;
+  horpozicgra [vieta] = horsak + ramgra*yy-ramgra;
+  verpozicbur [vieta] = versak + ramgra*xx-ramgra+ramgra-2;
+  horpozicbur [vieta] = horsak + ramgra*yy-ramgra+10;
+  // mansdarbs [vieta] = "";
+  vieta=vieta+1;
+  }
+  } 
+
+ramis()
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "black";
+ctx.strokeStyle = "black";
+ctx.lineWidth = 1;
+ctx.font = "25px Times New Roman";
+for (var n=1; n<=289; n++){ 
+// mansdarbs[n] = "";
+if ( mansdarbs[n]=="0"){ mansdarbs[n] = "";}
+ctx.fillText(mansdarbs[n] , horpozicbur [n]-6, verpozicbur [n]-3);
+if ( mansdarbs[n]==""){ mansdarbs[n] = "0";}
+if ( burts[n]=="1"){ 
+ctx.fillStyle = "black";
+ctx.fillRect(horpozicgra [n], verpozicgra [n],ramgra,ramgra);
+}} 
+
+// SAKUMS  VARDI
+
+// sakums  --  saliek vardus nejaušā kārtībā
+/*
+      for(var i=1; i<=varduskaits; i++){
+      var gatavs=0;  
+      while(gatavs==0){
+      var z=int(random(1,varduskaits-1));
+      if(var vecais[z]!=0){jaunais[i]=z; vecais[z]=0; gatavs=5;}
+      }}
+*/
+// beigas  -- saliek vardus nejaušā kārtībā
+
+var c = document.getElementById("vardi");
+var ctx = c.getContext("2d");
+ctx.clearRect( 0,0,750,300 );
+
+ctx.fillStyle = "black";
+ctx.strokeStyle = "black";
+ctx.lineWidth = 1;
+
+var m=1;
+var n=1; 
+var mm=1;
+var nn=1;
+
+for (n=1; n<=9; n++){ 
+nn= 30*n;
+ctx.moveTo(0,nn);
+ctx.lineTo(750,nn);
+} 
+for (n=1; n<=4; n++){ 
+nn= 150*n;
+ctx.moveTo(nn,0);
+ctx.lineTo(nn,300);
+} 
+ctx.stroke();
+
+ctx.font = "20px Times New Roman";
+
+ctx.fillText( sifrs[1] , 5, 25);
+ctx.fillText( sifrs[2] , 155, 25);
+ctx.fillText( sifrs[3] , 305, 25);
+ctx.fillText( sifrs[4] , 455, 25);
+ctx.fillText( sifrs[5] , 605, 25);
+
+ctx.fillText( sifrs[6] , 5, 55);
+ctx.fillText( sifrs[7] , 155, 55);
+ctx.fillText( sifrs[8] , 305, 55);
+ctx.fillText( sifrs[9] , 455, 55);
+ctx.fillText( sifrs[10] , 605, 55);
+
+ctx.fillText( sifrs[11] , 5, 85);
+ctx.fillText( sifrs[12] , 155, 85);
+ctx.fillText( sifrs[13] , 305, 85);
+ctx.fillText( sifrs[14] , 455, 85);
+ctx.fillText( sifrs[15] , 605, 85);
+
+ctx.fillText( sifrs[16] , 5, 115);
+ctx.fillText( sifrs[17] , 155, 115);
+ctx.fillText( sifrs[18] , 305, 115);
+ctx.fillText( sifrs[19] , 455, 115);
+ctx.fillText( sifrs[20] , 605, 115);
+
+ctx.fillText( sifrs[21] , 5, 145);
+ctx.fillText( sifrs[22] , 155, 145);
+ctx.fillText( sifrs[23] , 305, 145);
+ctx.fillText( sifrs[24] , 455, 145);
+ctx.fillText( sifrs[25] , 605, 145);
+
+ctx.fillText( sifrs[26] , 5, 175);
+ctx.fillText( sifrs[27] , 155, 175);
+ctx.fillText( sifrs[28] , 305, 175);
+ctx.fillText( sifrs[29] , 455, 175);
+ctx.fillText( sifrs[30] , 605, 175);
+
+ctx.fillText( sifrs[31] , 5, 205);
+ctx.fillText( sifrs[32] , 155, 205);
+ctx.fillText( sifrs[33] , 305, 205);
+ctx.fillText( sifrs[34] , 455, 205);
+ctx.fillText( sifrs[35] , 605, 205);
+
+ctx.fillText( sifrs[36] , 5, 235);
+ctx.fillText( sifrs[37] , 155, 235);
+ctx.fillText( sifrs[38] , 305, 235);
+ctx.fillText( sifrs[39] , 455, 235);
+ctx.fillText( sifrs[40] , 605, 235);
+
+ctx.fillText( sifrs[41] , 5, 265);
+ctx.fillText( sifrs[42] , 155, 265);
+ctx.fillText( sifrs[43] , 305, 265);
+ctx.fillText( sifrs[44] , 455, 265);
+ctx.fillText( sifrs[45] , 605, 265);
+
+ctx.fillText( sifrs[46] , 5, 295);
+ctx.fillText( sifrs[47] , 155, 295);
+ctx.fillText( sifrs[48] , 305, 295);
+ctx.fillText( sifrs[49] , 455, 295);
+ctx.fillText( sifrs[50] , 605, 295);
+
+// BEIGAS  VARDI
+
+
+}                 //  *************************************** beidzas     function viss() {
+// ##################
+
+
+// #####################################################################
+function f1() {
+ var hori = event.pageX;
+ var vert = event.pageY;
+ var coords = "X coords: " + hori + ", Y coords: " + vert
+ // document.getElementById("remo").innerHTML = coords;
+
+var mala=10;
+for (n=1; n<=17; n++){ 
+var krei = mala+n*ramgra-ramgra;
+var laba =mala+n*ramgra;
+if (hori>=krei && hori<=laba) {
+var burtshor=n;
+var kauh = krei;
+}	
+} 
+for (n=1; n<=17; n++){ 
+var augs = mala+n*ramgra-ramgra;
+var apak =mala+n*ramgra;
+if (vert>=augs && vert<= apak) {
+var burtsver=n;
+var kauv = augs;
+}
+} 
+ burtanumurs = 17*burtsver+burtshor-17;
+// burtanumurs=burtanumurs-1;
+ burtadati = burtsver + "   " + burtshor + "   " + burtanumurs;
+ // document.getElementById("memo").innerHTML = burtadati;
+
+
+ramis()
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.font = "25px Times New Roman";
+for (var n=1; n<=289; n++){ 
+if ( mansdarbs[n]=="0"){ mansdarbs[n] = "";}
+ctx.fillText(mansdarbs[n] , horpozicbur [n]-6, verpozicbur [n]-3);
+if ( mansdarbs[n]==""){ mansdarbs[n] = "0";}
+if ( burts[n]=="1"){ 
+ctx.fillStyle = "black";
+ctx.fillRect(horpozicgra [n], verpozicgra [n],ramgra,ramgra);
+}} 
+
+ctx.fillStyle = "yellow";
+// ctx.globalCompositeOperation = "source-over";
+ctx.globalCompositeOperation = "destination-over";
+ctx.fillRect(horpozicgra [burtanumurs], verpozicgra [burtanumurs],ramgra,ramgra);
+
+}    //    beidzas     function f1() {
+
+
+//   ############################ SĀKAS     RAMIS
+function ramis() {  
+
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.clearRect( 0,0,595,595 );
+
+ctx.fillStyle = "black";
+ctx.strokeStyle = "black";
+ctx.lineWidth = 1;
+
+var m=1;
+var n=1; 
+var z=ramgra;
+var mm=1;
+var nn=1;
+
+for (n=1; n<=17; n++){ 
+nn= z*n;
+ctx.moveTo(nn,0);
+ctx.lineTo(nn,ramgra*17);
+} 
+for (n=1; n<=17; n++){ 
+nn= z*n;
+ctx.moveTo(0,nn);
+ctx.lineTo(ramgra*17,nn);
+} 
+ctx.stroke();
+
+ctx.font = "23px Times New Roman";
+for (var n=1; n<=289; n++){ 
+ctx.font = "23px Times New Roman";
+// ctx.fillText( sifrs[n] , horpozicbur [n], verpozicbur [n]);
+if ( burts[n]=="1"){ 
+ctx.fillStyle = "black";
+ctx.fillRect(horpozicgra [n], verpozicgra [n],ramgra,ramgra);
+}}  
+
+} 
+//   ############################  BEIDZAS     RAMIS
+
+// SĀKUMS  ---   HELP   VISI
+// ###############################################
+  function help() {
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "23px Times New Roman";
+for (var n=1; n<=289; n++){ 
+ctx.globalCompositeOperation = "source-over";
+// ctx.globalCompositeOperation = "destination-over";
+ctx.fillText( burts[n] , horpozicbur [n]-6, verpozicbur [n]-3);
+if ( burts[n]=="1"){ 
+ctx.fillStyle = "black";
+ctx.fillRect(horpozicgra [n], verpozicgra [n],ramgra,ramgra);
+}} 
+   }
+// ###############################################
+// BEIGAS  ---   HELP   VISI
+
+// SĀKUMS  ---   HELP   BURTS
+// ###############################################
+  function helpburts() {
+
+var hori = event.pageX;
+var vert = event.pageY;
+var coords = "X coords: " + hori + ", Y coords: " + vert
+var mala=10;
+for (n=1; n<=17; n++){ 
+var krei = mala+n*ramgra-ramgra;
+var laba =mala+n*ramgra;
+if (hori>=krei && hori<=laba) {
+var burtshor=n;
+var kauh = krei;
+}} 
+for (n=1; n<=17; n++){ 
+var augs = mala+n*ramgra-ramgra;
+var apak =mala+n*ramgra;
+if (vert>=augs && vert<= apak) {
+var burtsver=n;
+var kauv = augs;
+}} 
+burtanumurs = 17*burtsver+burtshor-17;
+var burtadati = burtsver + "   " + burtshor + "   " + burtanumurs;
+
+ramis()
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "28px Times New Roman";
+ctx.fillText(burts[burtanumurs] , horpozicbur [burtanumurs]-6, verpozicbur [burtanumurs]-3);
+
+   }
+// ###############################################
+// BEIGAS  ---   HELP   BURTS
+
+// SĀKUMS  ---   HELP   KLUDAS
+// ###############################################
+  function helpkludas() {
+
+ramis()
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "23px Times New Roman";
+
+for (var n=1; n<=289; n++){ 
+ctx.font = "23px Times New Roman";
+ctx.fillStyle = "black";
+
+if ( burts[n] !== "0" &&  burts[n] !== "1") {
+if ( burts[n]== mansdarbs[n]) {
+ctx.font = "30px Times New Roman";
+ctx.fillStyle = "green";
+}
+if ( burts[n]!== mansdarbs[n]) {
+ctx.font = "23px Times New Roman";
+ctx.fillStyle = "red";
+}
+}
+
+if ( mansdarbs[n]=="0"){ mansdarbs[n] = "";}
+ctx.fillText(mansdarbs[n] , horpozicbur [n], verpozicbur [n]);
+if ( mansdarbs[n]==""){ mansdarbs[n] = "0";}
+}
+
+  }
+// #######################################        BEIGAS  ---   HELP   KLUDAS
+
+// SAKUMS  VARDI
+
+// sakums  --  saliek vardus nejaušā kārtībā
+/*
+      for(var i=1; i<=varduskaits; i++){
+      var gatavs=0;  
+      while(gatavs==0){
+      var z=int(random(1,varduskaits-1));
+      if(var vecais[z]!=0){jaunais[i]=z; vecais[z]=0; gatavs=5;}
+      }}
+*/
+// beigas  -- saliek vardus nejaušā kārtībā
+
+var c = document.getElementById("vardi");
+var ctx = c.getContext("2d");
+ctx.clearRect( 0,0,750,300 );
+
+ctx.fillStyle = "black";
+ctx.strokeStyle = "black";
+ctx.lineWidth = 1;
+
+var m=1;
+var n=1; 
+var mm=1;
+var nn=1;
+
+for (n=1; n<=9; n++){ 
+nn= 30*n;
+ctx.moveTo(0,nn);
+ctx.lineTo(750,nn);
+} 
+for (n=1; n<=4; n++){ 
+nn= 150*n;
+ctx.moveTo(nn,0);
+ctx.lineTo(nn,300);
+} 
+ctx.stroke();
+
+ctx.font = "20px Times New Roman";
+
+ctx.fillText( sifrs[1] , 5, 25);
+ctx.fillText( sifrs[2] , 155, 25);
+ctx.fillText( sifrs[3] , 305, 25);
+ctx.fillText( sifrs[4] , 455, 25);
+ctx.fillText( sifrs[5] , 605, 25);
+
+ctx.fillText( sifrs[6] , 5, 55);
+ctx.fillText( sifrs[7] , 155, 55);
+ctx.fillText( sifrs[8] , 305, 55);
+ctx.fillText( sifrs[9] , 455, 55);
+ctx.fillText( sifrs[10] , 605, 55);
+
+ctx.fillText( sifrs[11] , 5, 85);
+ctx.fillText( sifrs[12] , 155, 85);
+ctx.fillText( sifrs[13] , 305, 85);
+ctx.fillText( sifrs[14] , 455, 85);
+ctx.fillText( sifrs[15] , 605, 85);
+
+ctx.fillText( sifrs[16] , 5, 115);
+ctx.fillText( sifrs[17] , 155, 115);
+ctx.fillText( sifrs[18] , 305, 115);
+ctx.fillText( sifrs[19] , 455, 115);
+ctx.fillText( sifrs[20] , 605, 115);
+
+ctx.fillText( sifrs[21] , 5, 145);
+ctx.fillText( sifrs[22] , 155, 145);
+ctx.fillText( sifrs[23] , 305, 145);
+ctx.fillText( sifrs[24] , 455, 145);
+ctx.fillText( sifrs[25] , 605, 145);
+
+ctx.fillText( sifrs[26] , 5, 175);
+ctx.fillText( sifrs[27] , 155, 175);
+ctx.fillText( sifrs[28] , 305, 175);
+ctx.fillText( sifrs[29] , 455, 175);
+ctx.fillText( sifrs[30] , 605, 175);
+
+ctx.fillText( sifrs[31] , 5, 205);
+ctx.fillText( sifrs[32] , 155, 205);
+ctx.fillText( sifrs[33] , 305, 205);
+ctx.fillText( sifrs[34] , 455, 205);
+ctx.fillText( sifrs[35] , 605, 205);
+
+ctx.fillText( sifrs[36] , 5, 235);
+ctx.fillText( sifrs[37] , 155, 235);
+ctx.fillText( sifrs[38] , 305, 235);
+ctx.fillText( sifrs[39] , 455, 235);
+ctx.fillText( sifrs[40] , 605, 235);
+
+ctx.fillText( sifrs[41] , 5, 265);
+ctx.fillText( sifrs[42] , 155, 265);
+ctx.fillText( sifrs[43] , 305, 265);
+ctx.fillText( sifrs[44] , 455, 265);
+ctx.fillText( sifrs[45] , 605, 265);
+
+ctx.fillText( sifrs[46] , 5, 295);
+ctx.fillText( sifrs[47] , 155, 295);
+ctx.fillText( sifrs[48] , 305, 295);
+ctx.fillText( sifrs[49] , 455, 295);
+ctx.fillText( sifrs[50] , 605, 295);
+
+// BEIGAS  VARDI
+
+//  *************************************** sākas     function vardi() {
+function vardi() {
+   
+var hor = event.pageX-530;
+var ver = event.pageY-100;
+  
+if (hor>0 && hor<150 &&ver>0 && ver<30){varnr=1;}
+if (hor>151 && hor<300 &&ver>0 && ver<30){varnr=2;}
+if (hor>301 && hor<450 &&ver>0 && ver<30){varnr=3;}
+if (hor>451 && hor<600 &&ver>0 && ver<30){varnr=4;}
+if (hor>601 && hor<750 &&ver>0 && ver<30){varnr=5;}
+
+if (hor>0 && hor<150 &&ver>31 && ver<60){varnr=6;}
+if (hor>151 && hor<300 &&ver>31 && ver<60){varnr=7;}
+if (hor>301 && hor<450 &&ver>31 && ver<60){varnr=8;}
+if (hor>451 && hor<600 &&ver>31 && ver<60){varnr=9;}
+if (hor>601 && hor<750 &&ver>31 && ver<60){varnr=10;}
+  
+if (hor>0 && hor<150 &&ver>61 && ver<90){varnr=11;}
+if (hor>151 && hor<300 &&ver>61 && ver<90){varnr=12;}
+if (hor>301 && hor<450 &&ver>61 && ver<90){varnr=13;}
+if (hor>451 && hor<600 &&ver>61 && ver<90){varnr=14;}
+if (hor>601 && hor<750 &&ver>61 && ver<90){varnr=15;}
+
+if (hor>0 && hor<150 &&ver>91 && ver<120){varnr=16;}
+if (hor>151 && hor<300 &&ver>91 && ver<120){varnr=17;}
+if (hor>301 && hor<450 &&ver>91 && ver<120){varnr=18;}
+if (hor>451 && hor<600 &&ver>91 && ver<120){varnr=19;}
+if (hor>601 && hor<750 &&ver>91 && ver<120){varnr=20;}
+
+if (hor>0 && hor<150 &&ver>121 && ver<150){varnr=21;}
+if (hor>151 && hor<300 &&ver>121 && ver<150){varnr=22;}
+if (hor>301 && hor<450 &&ver>121 && ver<150){varnr=23;}
+if (hor>451 && hor<600 &&ver>121 && ver<150){varnr=24;}
+if (hor>601 && hor<750 &&ver>121 && ver<150){varnr=25;}
+
+
+if (hor>0 && hor<150 &&ver>151 && ver<180){varnr=26;}
+if (hor>151 && hor<300 &&ver>151 && ver<180){varnr=27;}
+if (hor>301 && hor<450 &&ver>151 && ver<180){varnr=28;}
+if (hor>451 && hor<600 &&ver>151 && ver<180){varnr=29;}
+if (hor>601 && hor<750 &&ver>151 && ver<180){varnr=30;}
+
+if (hor>0 && hor<150 &&ver>181 && ver<210){varnr=31;}
+if (hor>151 && hor<300 &&ver>181 && ver<210){varnr=32;}
+if (hor>301 && hor<450 &&ver>181 && ver<210){varnr=33;}
+if (hor>451 && hor<600 &&ver>181 && ver<210){varnr=34;}
+if (hor>601 && hor<750 &&ver>181 && ver<210){varnr=35;}
+
+if (hor>0 && hor<150 &&ver>211 && ver<240){varnr=36;}
+if (hor>151 && hor<300 &&ver>211 && ver<240){varnr=37;}
+if (hor>301 && hor<450 &&ver>211 && ver<240){varnr=38;}
+if (hor>451 && hor<600 &&ver>211 && ver<240){varnr=39;}
+if (hor>601 && hor<750 &&ver>211 && ver<240){varnr=40;}
+
+if (hor>0 && hor<150 &&ver>241 && ver<270){varnr=41;}
+if (hor>151 && hor<300 &&ver>241 && ver<270){varnr=42;}
+if (hor>301 && hor<450 &&ver>241 && ver<270){varnr=43;}
+if (hor>451 && hor<600 &&ver>241 && ver<270){varnr=44;}
+if (hor>601 && hor<750 &&ver>241 && ver<270){varnr=45;}
+
+if (hor>0 && hor<150 &&ver>271 && ver<300){varnr=46;}
+if (hor>151 && hor<300 &&ver>271 && ver<300){varnr=47;}
+if (hor>301 && hor<450 &&ver>271 && ver<300){varnr=48;}
+if (hor>451 && hor<600 &&ver>271 && ver<300){varnr=49;}
+if (hor>601 && hor<750 &&ver>271 && ver<300){varnr=50;}
+
+
+// document.getElementById("sremo").innerHTML = varnr;
+ xxxxx =  sifrs [varnr];
+ garums = xxxxx.length;
+
+sakumsbeigas()
+
+  if (varsak !== varbei && versak == verbei){
+  var wb=0;
+  while (wb<=garums){
+        var burts0 =  xxxxx.substring(wb,wb+1);
+        mansdarbs [varsak+wb]=burts0;
+        wb=wb+1;
+   }}       
+   if (versak !== verbei && varsak == varbei){
+    var wb=0;
+    while (wb<=garums){
+    var burts0 =  xxxxx.substring(wb,wb+1);
+    mansdarbs [versak+wb*17]=burts0;
+    wb=wb+1;
+   }}       
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "23px Times New Roman";
+ctx.fillStyle = "black";
+ctx.font = "25px Times New Roman";
+for (var n=1; n<=289; n++){ 
+if ( mansdarbs[n]=="0"){ mansdarbs[n] = "";}
+ctx.globalCompositeOperation = "source-over";
+ctx.fillText(mansdarbs[n] , horpozicbur [n]-6, verpozicbur [n]-3);
+if ( mansdarbs[n]==""){ mansdarbs[n] = "0";}
+if ( burts[n]=="1"){ 
+ctx.fillStyle = "black";
+ctx.fillRect(horpozicgra [n], verpozicgra [n],ramgra,ramgra);
+}} 
+
+  }                 //  *************************************** beidzas     function vardi() {
+
+
+// ****************************************************
+function sakumsbeigas() {
+
+    var w=0;
+    atsl=0;
+    varsak=0;
+    while (atsl==0){
+    if (burts[burtanumurs-w]=="1"  && atsl==0){varsak=burtanumurs-w+1; atsl=5;}
+    if (burtanumurs-w==1  && atsl==0){varsak=1; atsl=5;}
+    if (burtanumurs-w==18  && atsl==0){varsak=18; atsl=5;}
+    if (burtanumurs-w==35  && atsl==0){varsak=35; atsl=5;}
+    if (burtanumurs-w==52  && atsl==0){varsak=52; atsl=5;}
+    if (burtanumurs-w==69  && atsl==0){varsak=69; atsl=5;}
+    if (burtanumurs-w==86  && atsl==0){varsak=86; atsl=5;}
+    if (burtanumurs-w==103  && atsl==0){varsak=103; atsl=5;}
+    if (burtanumurs-w==120  && atsl==0){varsak=120; atsl=5;}
+    if (burtanumurs-w==137  && atsl==0){varsak=137; atsl=5;}
+    if (burtanumurs-w==154  && atsl==0){varsak=154; atsl=5;}
+    if (burtanumurs-w==171  && atsl==0){varsak=171; atsl=5;}
+    if (burtanumurs-w==188  && atsl==0){varsak=188; atsl=5;}
+    if (burtanumurs-w==205  && atsl==0){varsak=205; atsl=5;}
+    if (burtanumurs-w==222  && atsl==0){varsak=222; atsl=5;}
+    if (burtanumurs-w==239  && atsl==0){varsak=239; atsl=5;}
+    if (burtanumurs-w==256  && atsl==0){varsak=256; atsl=5;}
+    if (burtanumurs-w==273  && atsl==0){varsak=273; atsl=5;}
+    w=w+1;
+    }    
+// document.getElementById("sremo").innerHTML = varsak + "  " + burtanumurs;
+// document.getElementById("sremo").innerHTML = burts[3];
+
+    var w=0;
+    atsl=0;
+    varbei=0;
+    while (atsl==0){
+    if (burts[burtanumurs+w]=="1"  && atsl==0){varbei=burtanumurs+w-1; atsl=5;}
+    if (burtanumurs+w==17  && atsl==0){varbei=17; atsl=5;}
+    if (burtanumurs+w==34  && atsl==0){varbei=34; atsl=5;}
+    if (burtanumurs+w==51  && atsl==0){varbei=51; atsl=5;}
+    if (burtanumurs+w==68  && atsl==0){varbei=68; atsl=5;}
+    if (burtanumurs+w==85  && atsl==0){varbei=85; atsl=5;}
+    if (burtanumurs+w==102  && atsl==0){varbei=102; atsl=5;}
+    if (burtanumurs+w==119  && atsl==0){varbei=119; atsl=5;}
+    if (burtanumurs+w==136  && atsl==0){varbei=136; atsl=5;}
+    if (burtanumurs+w==153  && atsl==0){varbei=153; atsl=5;}
+    if (burtanumurs+w==170  && atsl==0){varbei=170; atsl=5;}
+    if (burtanumurs+w==187  && atsl==0){varbei=187; atsl=5;}
+    if (burtanumurs+w==204  && atsl==0){varbei=204; atsl=5;}
+    if (burtanumurs+w==221  && atsl==0){varbei=221; atsl=5;}
+    if (burtanumurs+w==238  && atsl==0){varbei=238; atsl=5;}
+    if (burtanumurs+w==272  && atsl==0){varbei=272; atsl=5;}
+    if (burtanumurs+w==289  && atsl==0){varbei=289; atsl=5;}
+    w=w+1;
+    }    
+
+    var w=0;
+    veratsl=0;
+    versak=0;
+    while (veratsl==0){
+    if (burts[burtanumurs-w]=="1"  && veratsl==0){versak=burtanumurs-w+17; veratsl=5;}
+    if (burtanumurs-w==1  && veratsl==0){versak=1; veratsl=5;}
+    if (burtanumurs-w==2  && veratsl==0){versak=2; veratsl=5;}
+    if (burtanumurs-w==3  && veratsl==0){versak=3; veratsl=5;}
+    if (burtanumurs-w==4  && veratsl==0){versak=4; veratsl=5;}
+    if (burtanumurs-w==5  && veratsl==0){versak=5; veratsl=5;}
+    if (burtanumurs-w==6  && veratsl==0){versak=6; veratsl=5;}
+    if (burtanumurs-w==7  && veratsl==0){versak=7; veratsl=5;}
+    if (burtanumurs-w==8  && veratsl==0){versak=8; veratsl=5;}
+    if (burtanumurs-w==9  && veratsl==0){versak=9; veratsl=5;}
+    if (burtanumurs-w==10  && veratsl==0){versak=10; veratsl=5;}
+    if (burtanumurs-w==11  && veratsl==0){versak=11; veratsl=5;}
+    if (burtanumurs-w==12  && veratsl==0){versak=12; veratsl=5;}
+    if (burtanumurs-w==13  && veratsl==0){versak=13; veratsl=5;}
+    if (burtanumurs-w==14  && veratsl==0){versak=14; veratsl=5;}
+    if (burtanumurs-w==15  && veratsl==0){versak=15; veratsl=5;}
+    if (burtanumurs-w==16  && veratsl==0){versak=16; veratsl=5;}
+    if (burtanumurs-w==17  && veratsl==0){versak=17; veratsl=5;}
+    w=w+17;
+    }    
+
+    var w=0;
+    veratsl=0;
+    verbei=0;
+    while (veratsl==0){
+    if (burts[burtanumurs+w]=="1"  && veratsl==0){verbei=burtanumurs+w-17; veratsl=5;}
+    if (burtanumurs+w==273  && veratsl==0){verbei=273; veratsl=5;}
+    if (burtanumurs+w==274  && veratsl==0){verbei=274; veratsl=5;}
+    if (burtanumurs+w==275  && veratsl==0){verbei=275; veratsl=5;}
+    if (burtanumurs+w==276  && veratsl==0){verbei=276; veratsl=5;}
+    if (burtanumurs+w==277  && veratsl==0){verbei=277; veratsl=5;}
+    if (burtanumurs+w==278  && veratsl==0){verbei=278; veratsl=5;}
+    if (burtanumurs+w==279  && veratsl==0){verbei=279; veratsl=5;}
+    if (burtanumurs+w==280  && veratsl==0){verbei=280; veratsl=5;}
+    if (burtanumurs+w==281  && veratsl==0){verbei=281; veratsl=5;}
+    if (burtanumurs+w==282  && veratsl==0){verbei=282; veratsl=5;}
+    if (burtanumurs+w==283  && veratsl==0){verbei=283; veratsl=5;}
+    if (burtanumurs+w==284  && veratsl==0){verbei=284; veratsl=5;}
+    if (burtanumurs+w==285  && veratsl==0){verbei=285; veratsl=5;}
+    if (burtanumurs+w==286  && veratsl==0){verbei=286; veratsl=5;}
+    if (burtanumurs+w==287  && veratsl==0){verbei=287; veratsl=5;}
+    if (burtanumurs+w==288  && veratsl==0){verbei=288; veratsl=5;}
+    if (burtanumurs+w==289 && veratsl==0){verbei=289; veratsl=5;}
+    w=w+17;
+    }    
+
+  //  document.getElementById("sremo").innerHTML = "VERT===" + versak+" "+ burtanumurs+ "  " + verbei + "    "+"HORI===" + varsak+" "+ burtanumurs+ "  " + varbei;;
+
+}                 //  *************************************** beidzas     function sakumsbeigas() {
+
+// ****************************************************  sakas  function nodzest() {
+
+function nodzest() {
+
+sakumsbeigas()
+
+if (varsak !== varbei && versak == verbei){
+for (var n=varsak; n<=varbei; n++){ 
+mansdarbs[n]="0";
+}} 
+if (versak !== verbei && varsak == varbei){
+for (var n=versak; n<=verbei; n=n+17){ 
+mansdarbs[n]="0";
+}} 
+
+ramis()
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "23px Times New Roman";
+ctx.fillStyle = "black";
+ctx.font = "25px Times New Roman";
+for (var n=1; n<=289; n++){ 
+if ( mansdarbs[n]=="0"){ mansdarbs[n] = "";}
+ctx.globalCompositeOperation = "source-over";
+ctx.fillText(mansdarbs[n] , horpozicbur [n]-6, verpozicbur [n]-3);
+if ( mansdarbs[n]==""){ mansdarbs[n] = "0";}
+if ( burts[n]=="1"){ 
+ctx.fillStyle = "black";
+ctx.fillRect(horpozicgra [n], verpozicgra [n],ramgra,ramgra);
+}} 
+
+}                 //  *************************************** beidzas     function nodzest() {
+
+
+</script>
+
+</body>
 </html>
+
+
