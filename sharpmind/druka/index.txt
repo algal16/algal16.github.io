@@ -1,0 +1,75 @@
+﻿
+
+<!DOCTYPE HTML>
+<html>  
+
+<head>
+<meta charset="utf-8">
+<title>Mind, logical, number, word puzzles...</title>
+<meta name="description" content="Crosswords, mind, logical, number, word puzzles">
+<meta name="keywords" content="Crosswords, Sudoku, Mind puzzles, Logical puzzles, Number puzzles, Word puzzles, English crosswords, Russian crosswords, Latvian crosswords, Krustvārdu mīklas, Кроссворды">
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<?php
+$myfile = fopen("statid.txt", "r") or die("Unable to open file!");
+$skatits = fgets($myfile);
+fclose($myfile);
+$myfile = fopen("statid.txt", "w") or die("Unable to open file!");
+$skatits = $skatits+1; 
+fwrite($myfile, $skatits);
+fclose($myfile);
+ ?>
+
+<p style="position: absolute; top:30px; left:50px; width:600px;  font-size:120%; color: white; background-color: white; ">
+
+<a href="kru-anagr/kruana20apr18.pdf">KRUSTVĀRDU – ANAGRAMMU MĪKLA LATVISKI</a>
+<br><br>
+<a href="kru-ang-kri/krustvardiparasti.pdf">KRUSTVĀRDU MĪKLA ANGĻU – KRIEVU VĀRDNĪCA</a>
+<br><br>
+<a href="meklesana/mekl15feb2018-1virziens.pdf">ATRODIET 20 LATVIJAS PILSĒTU VĀRDUS! - viegla</a>
+<br><br>
+<a href="meklesana/mekl15feb2018-4virzieni.pdf">ATRODIET 20 LATVIJAS PILSĒTU VĀRDUS! - vidēja</a>
+<br><br>
+<a href="meklesana/mekl15feb2018-8virzieni.pdf">ATRODIET 20 LATVIJAS PILSĒTU VĀRDUS! - grūta</a>
+<br><br>
+<a href="mekl5reiz5/pastpilmek/pastiprmekl-pilsetas-10aug18.pdf">VĀRDU MĪKLA: Atrodiet piecas Latvijas pilsētas (25 kvadrāti)</a>
+<br><br>
+<a href="spirale/spirale.pdf">VĀRDU MĪKLA “SPIRĀLE”</a>
+<br><br>
+<a href="veido-pats/pats19apr18d.pdf">VEIDO PATS: KRUSTVĀRDU MĪKLA Nr. 8 LATVIEŠU VALODĀ</a>
+<br><br>
+<a href="skaitlu-mikla-1/skmikla14apr18.pdf">SKAITĻU MĪKLA – ATRODIET SUMMU 1500</a>
+<br><br>
+<a href="skaitlu-mikla-2/skmikla15apr2018.pdf">SKAITĻU MĪKLA – VIEDAIS KVADRĀTS</a>
+
+</p>
+
+<p style="position: absolute; top:30px; left:750px; width:400px;  font-size:120%; color: white; background-color: white; ">
+
+<a href="amerikanu/amer17apr18.pdf">AMERIKĀŅU VĀRDU MĪKLA ANGĻU (amerikāņu) VALODĀ</a>
+<br><br>
+<a href="aritmetika/aritmetika.pdf">PARASTA ARITMĒTIKA LATVIEŠU VALODĀ</a>
+<br><br>
+<a href="barjeru/barj15apr2018.pdf">BARJERU KRUSTVĀRDU MĪKLA LATVIEŠU VALODĀ</a>
+<br><br>
+<a href="burtskaitli/skmikla29apr18lat.pdf">BURTSKAITĻU KRUSTVĀRDU MĪKLA LATVISKI</a>
+<br><br>
+<a href="francu/fra23apr18fra.pdf">FRANČU KRUSTVĀRDU MĪKLA FRANČU VALODĀ</a>
+<br><br>
+<a href="italu/ita22apr18lat.pdf">ITĀĻU KRUSTVĀRDU MĪKLA LATVIEŠU VALODĀ</a>
+<br><br>
+<a href="kru-1bilde/libre25mar2018.pdf">KRUSTVĀRDU MĪKLA AR VIENU ATTĒLU LATVIEŠU VALODĀ</a>
+<br><br>
+<a href="kru-2bildes/libre25mar2018.pdf">KRUSTVĀRDU MĪKLA AR DIVIEM ATTĒLIEM LATVIEŠU VALODĀ</a>
+<br><br>
+<a href="zviedru-miklas/libre05mar2018.pdf">ZVIEDRU MĪKLA LATVIEŠU VALODĀ</a>
+
+</p>
+
+</body>
+</html>
