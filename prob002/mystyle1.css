@@ -4,15 +4,14 @@ body {
   width: 100%;
   font-family: "Times New Roman";
   color: rgb(0,0,0);
-margin: auto;
+  padding: 50px;
 }
 
 div {
-
-   background-color: white;
+  background-color: white;
   color: black;
-  width: 70%;
- padding: 50px; 
+  width: 80%;
+  padding: 50px;
   margin: auto;
   /* border: 1px solid  grey; */
   line-height: 1.0;
@@ -30,7 +29,7 @@ h2 {
 }
 
 p {
-  /*  margin-left: 20px; */
+  margin-left: 20px;
   font-size: 20px;
   text-align: justify;
   /*  letter-spacing: 3px; */
