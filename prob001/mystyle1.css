@@ -1,0 +1,42 @@
+﻿
+body {
+  background-color: rgb(230,230,230);
+  width: 100%;
+  font-family: "Times New Roman";
+  color: rgb(0,0,0);
+margin: auto;
+}
+
+div {
+
+   background-color: white;
+  color: black;
+  width: 70%;
+ padding: 50px; 
+  margin: auto;
+  /* border: 1px solid  grey; */
+  line-height: 1.0;
+}
+
+h1 {
+  margin-left: 22px;
+  text-align: center;
+}
+
+h2 {
+ /*  margin-left: 20px; */
+  text-align: center;
+ /*  letter-spacing: 3px; */
+}
+
+p {
+  /*  margin-left: 20px; */
+  font-size: 20px;
+  text-align: justify;
+  /*  letter-spacing: 3px; */
+}
+
+img {
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
