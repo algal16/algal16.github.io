@@ -7,7 +7,8 @@ Self-development, self-actualization, harmonisation - pašrealizācija, pašatt�
 </title>
 </head>
 
-<body text=black bgcolor=white link=blue vlink=blue alink=red>
+<body text=black bgcolor=white
+ link=blue vlink=blue alink=red>
 
 <h2>
 <center>
