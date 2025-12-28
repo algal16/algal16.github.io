@@ -1,0 +1,53 @@
+﻿
+<html>
+
+<head>
+<title>
+Self-development, self-actualization, harmonisation - pašrealizācija, pašattīstība, harmonizācija - саморазвитие, самореализация, гармонизация
+</title>
+</head>
+
+<body text=black bgcolor=white link=blue vlink=blue alink=red>
+
+<h2>
+<center>
+<b>﻿Henri Bergson (1859-1941): An Introduction to Metaphysics (quote)</b>
+</center>
+</h2>
+
+<p>
+<table border=0 bordercolor=grey cellspacing=1 align=center width=800>
+<tr valign=top>
+<td>
+<font size=4>
+
+<img src="bergson001.jpg" width=240 align=left>
+<p>
+<i>Bergsons ir nopietns vīrs - Nobela prēmijas laureāts. Viņš ir atstājis lielu iespaidu arī uz daudziem latviešu rakstniekiem un filosofiem - Poruku, Bārdu, Mauriņu u.c. Arī mēs katrs varētu no viņa daudz ko aizgūt, padarīt par savu un izmantot ikdienas dzīvē. Kaut gan, īsti ņemot, pašā dziļākajā būtībā tas ir un paliek Bērklija un Hjūma subjektīvais ideālisms. Šis ir fragments no mana latviskā tulkojuma (A.A.).</i>
+<p>
+(In Latvian, Russian and English)
+<p>
+Metafizikas definīciju un dažādu absolūtā koncepciju salīdzinājums noved pie atklājuma, ka filosofi, neskatoties uz acīmredzamām uzskatu atšķirībām, ir vienoti attiecībā uz divu fundamentāli atšķirīgu lietas izzināšanas ceļu izdalīšanu. Pirmais ir tāds, ka mēs virzāmies objektam apkārt, otrais – ka mēs ieejam tajā. Pirmais ir atkarīgs no skata punkta, kādā mēs atrodamies, un no simboliem, kādus mēs paši pielietojam, lai sevi izteiktu. Otrais nav atkarīgs ne no skata punkta, ne arī no simboliem. Varētu teikt, ka pirmais zināšanu veids apstājas relatīvajā, otrais, kad tas ir iespējams, sasniedz absolūto.
+<p>
+Iedomājieties, piemēram, kāda priekšmeta kustību telpā. Mana kustības uztvere mainīsies atkarībā no skata punkta, kustīga vai stacionāra, no kura es šo kustību vēroju. Tas, kā es šo kustību attēloju, atšķirsies, atkarībā no koordinātu sistēmas, vai atskaites punktiem, pret kuriem es šo kustību mēru; tātad, no simboliem, ar kādiem es šo kustību translēju. Šo divu apsvērumu dēļ es šādu kustību saucu par relatīvu: gan pirmajā gadījumā, gan otrajā, es esmu novietots ārpus paša objekta. Bet, kad es runāju par absolūto kustību, es pierakstu kustošajam objektam kaut ko iekšēju, un, tēlaini izsakoties, gara stāvokļus; es tāpat ar savas iztēles spēku stādos priekšā, ka es esmu iejuties šajos stāvokļos, un ka es pats esmu tajos iegājis iekšā. Tad, atkarībā no tā, vai objekts ir kustīgs vai stacionārs, atkarībā no tā, kā tas vienu kustību saskaņo ar citu, mana uztvere mainīsies. Un tas, ko es uztveru, nebūs atkarīgs ne no skata punkta, kādā es varētu atrasties attiecībā pret objektu, jo es atrododos pašā objektā iekšā, ne arī no simboliem, ar kādiem es nododu tālāk šo kustību, jo es esmu atmetis visas translācijas ar nolūku apgūt oriģinālu. Īsi sakot, es neuztveru kustību no ārienes, paliekot tur, kur es esmu, bet no turienes, kur tā ir, no iekšienes, tādu, kāda tā ir pati sevī. Es iegūstu absolūtu.
+<p>
+Если сравнить между собою определения метафизики и понятия абсолютного, то можно заметить, что, вопреки кажущемуся разногласию, философы сходятся в признании двух глубоко различных способов познания вещи. Первый способ предполагает, что вращаются вокруг вещи; второй, что в нее входят. Первый зависит от того, на какую точку зрения становятся, и от символов, посредством которых выражаются. Второй не держится никакой точки зрения и не опирается ни на какой символ. О первом познании можно сказать, что оно останавливается на относительном; о втором, — там, где оно возможно, — что оно достигает абсолютного.
+<p>
+Возьмем, например, движение предмета в пространстве. Я воспринимаю его различно, в зависимости от точки зрения — подвижной или неподвижной, — с которой я смотрю на него. Я выражаю его различно, смотря по тому, к какой системе осей или отправных точек я его отношу, т.е. смотря по тем символам, на какие я его перевожу. И на этом двойном основании я назову его относительным; как в том, так и в другом случае я нахожусь вне самого предмета. Когда я говорю об абсолютном движении, то это значит, что я приписываю подвижному телу что-то внутреннее, как бы состояния души, это значит также, что я симпатизирую этим состояниям и что я проникаю в них усилием воображения. Тогда в зависимости от того, будет ли предмет подвижен или неподвижен, примет ли он то или иное движение, я буду испытывать не одно и то же. И то, что я буду испытывать, не будет зависеть ни от точки зрения, которую я мог бы иметь на предмет, ибо я буду находиться в самом предмете, ни от символов, на которые я мог бы его перевести, ибо, ради обладания оригиналом, я откажусь от всякого перевода. Коротко говоря, движение не будет уже схватываться извне, как бы от меня, но изнутри, само по себе, в нем самом. Я буду обладать абсолютным.
+<p>
+A COMPARISON of the definitions of metaphysics and the various conceptions of the absolute leads to the discovery that philosophers, in spite of their apparent divergencies, agree in distinguishing two profoundly different ways of knowing a thing. The first implies that we move round the object; the second that we enter into it. The first depends on the point of view at which we are placed and on the symbols by which we express ourselves. The second neither depends on a point of view nor relies on any symbol. The first kind of knowledge may be said to stop at the relative; the second, in those cases where it is possible, to attain the absolute.
+<p>
+Consider, for example, the movement of an object in space. My perception of the motion will vary with the point of view, moving or stationary, from which I observe it. My expression of it will vary with the systems of axes, or the points of reference, to which I relate it; that is, with the symbols by which I translate it. For this double reason I call such motion relative: in the one case, as in the other, I am placed outside the object itself. But when I speak of an absolute movement, I am attributing to the moving object an interior and, so to speak, states of mind; I also imply that I am in sympathy with those states, and that I insert myself in them by an effort of imagination. Then, according as the object is moving or stationary, according as it adopts one movement or another, what I experience will vary. And what I experience will depend neither on the point of view I may take up in regard to the object, since I am inside the object itself, nor on the symbols by which I may translate the motion, since I have rejected all translations in order to possess the original. In short, I shall no longer grasp the movement from without, remaining where I am, but from where it is, from within, as it is in itself. I shall possess an absolute.
+<p>
+A.A
+<p>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
+
+
+
